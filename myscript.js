@@ -1,24 +1,17 @@
-var toats;
+var database = [];
 $(document).ready(function() {
 	var breyta;
-	for(var i = 0; i<2; i++)
+	for(var i = 1950; i<2015; i++)
 	{
-		var b = 2014;
-		if(i == 0){
-			breyta = "data/"+b+".json"
-		}
-		else{
-			breyta = "data/1992.json"
-		}
-		dostuff(breyta);
+		dostuff("data/"+i+".json");
 	}
+	console.log(database);
 });
 
 function dostuff(breyta){
 $.getJSON(breyta, function(data) {
 	var arr=[];
 	var last;
-	console.log(data[0]);
 	for(var i = 0; i <data.length;i++)
 	{
 		if(!(data[i].Player == last)){
@@ -34,6 +27,6 @@ for(var i = 0; i<arr.length;i++)
 {
 	avg += parseInt(arr[i].PTS);
 }
-console.log(avg);
+database.push(arr);
 });
 }
