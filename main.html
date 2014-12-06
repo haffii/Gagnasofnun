@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  ng-app ng-csp>
 <head>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
@@ -15,8 +15,12 @@
 <body>
 	<div id="chart_div"></div>
 	<div id="chart_buttons">
+		<p>Charts : </p>
 		<button id="ppg" onclick="drawppg()">PPG</button>
 		<button id="fgp" onclick="drawfgp()">FG%</button>
+	</div>
+	<div ng-app="" ng-controller="timeController" id="time_div" >
+		<input id="from" type="text" ng-model="from" ng-change="changeFrom()"/>
 	</div>
 </body>
 

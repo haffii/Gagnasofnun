@@ -1,5 +1,9 @@
 	var database = [];
 	var seasons = [];
+	var chart = 0;
+	var from = 0;
+	var to = 0;
+
 	google.load('visualization', '1.0', {'packages':['corechart']});
 	google.setOnLoadCallback(start);
 
@@ -50,6 +54,7 @@
 
 			
 	      function drawppg() {
+	      		      	chart = 0;
 	        var data = new google.visualization.DataTable();
 	        data.addColumn('string', 'Year');
 	        data.addColumn('number', 'Points');
@@ -57,7 +62,7 @@
 
 	     var points = 0;
 	    
-		for(var i = 0; i<database.length;i++)
+		for(var i = from; i<database.length;i++)
 		{
 			for(var x = 0;x<database[i].length;x++)
 			{
@@ -74,7 +79,7 @@
 	        
 		}
 	        // Set chart options
-	        var options = {'title':'Points Scored',
+	        var options = {'title':'average points scored per game',
 	                       'width':800,
 	                       'height':500};
 
@@ -84,12 +89,13 @@
 		
 function drawfgp()
 {
+	chart = 1;
  var data = new google.visualization.DataTable();
 	        data.addColumn('string', 'Year');
 	        data.addColumn('number', 'FG%');
 	     var fg = 0;
 	     var fga = 0;
-		for(var i = 0; i<database.length;i++)
+		for(var i = from; i<database.length;i++)
 		{
 			for(var x = 0;x<database[i].length;x++)
 			{
@@ -116,3 +122,18 @@ function drawfgp()
 	        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 	        chart.draw(data, options);
 	      }
+
+function timeController($scope) {
+	$scope.changeFrom = function() {
+	tempfrom = $scope.from;
+	if(tempfrom > 1949 && tempfrom < 2015){
+	 from = tempfrom - 1950;
+	 if(chart == 0)
+	 {drawppg();}
+
+	 else if(chart == 1){
+	 	drawfgp()
+	 }
+	}
+};
+}

@@ -1,4 +1,8 @@
-button{
-	margin: 10px;
-}
 
+#chart_buttons{
+margin-left: 100px;
+
+}
+p{
+	display: inline;
+}
