@@ -1,66 +1,113 @@
-var database = [];
-google.load('visualization', '1.0', {'packages':['corechart']});
-google.setOnLoadCallback(start);
+	var database = [];
+	var seasons = [];
+	google.load('visualization', '1.0', {'packages':['corechart']});
+	google.setOnLoadCallback(start);
 
-function start(){
-	
-	 	var breyta;
-		for(var i = 1950; i<2015; i++)
-		{
-		dostuff(i);	
-	}
-	}
-
-	function dostuff(breyta){
-	$.getJSON("data/"+breyta+".json", function(data) {
-		var arr=[];
-		var last;
-		for(var i = 0; i <data.length;i++)
-		{
-			if(!(data[i].Player == last)){
-			 	if(!(data[i].Player=="Player")){
-					last = data[i].Player;
-					arr.push(data[i]);
-				}
+	function start(){
+		
+		 	var breyta;
+		 	dostuff("seasons");
+			for(var i = 1950; i<2015; i++)
+			{
+				dostuff(i);	
 			}
-			
-		}	
-		
-	database.push(arr);
-	if(breyta==2014)
-	{
-		drawChart();	
-	}
-	});
-	}
-
-		
-      function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Year');
-        data.addColumn('number', 'Points');
-        console.log(database.length)
-     var tots = 0;
-	for(var i = 0; i<database.length;i++)
-	{
-		for(var x = 0;x<database[i].length;x++)
-		{
-			tots += parseInt(database[i][x].PTS);
 
 		}
-        data.addRows([
-          [String(1950+i), tots]
-        ]);
-        tots=0;
-	}
-        // Set chart options
-        var options = {'title':'Points Scored',
-                       'width':800,
-                       'height':500};
 
-        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
+		function dostuff(breyta){
+		$.getJSON("data/"+breyta+".json", function(data) {
+			if(breyta == "seasons"){
+					seasons.push(data);
+			}
+			else{
+			var arr=[];
+			var last;
+			for(var i = 0; i <data.length;i++)
+			{
 
-	
+				if(!(data[i].Player == last)){
+				 	if(!(data[i].Player=="Player")){
+						last = data[i].Player;
+						arr.push(data[i]);
+					}
+				}
+				
+			}	
+			
+			database.push(arr);
+			if(breyta==2014)
+			{
+			drawppg();	
+			} 
+		}
+		});
+		}
 
+			
+	      function drawppg() {
+	        var data = new google.visualization.DataTable();
+	        data.addColumn('string', 'Year');
+	        data.addColumn('number', 'Points');
+	        
+
+	     var points = 0;
+	    
+		for(var i = 0; i<database.length;i++)
+		{
+			for(var x = 0;x<database[i].length;x++)
+			{
+				points += parseInt(database[i][x].PTS);			
+			}
+			
+			points = points/(seasons[0][i].Teams * seasons[0][i].Games);
+	        data.addRows([
+	          [String(1950+i), points]
+	        ]);
+	      
+	        points = 0;
+	      
+	        
+		}
+	        // Set chart options
+	        var options = {'title':'Points Scored',
+	                       'width':800,
+	                       'height':500};
+
+	        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+	        chart.draw(data, options);
+	      }
+		
+function drawfgp()
+{
+ var data = new google.visualization.DataTable();
+	        data.addColumn('string', 'Year');
+	        data.addColumn('number', 'FG%');
+	     var fg = 0;
+	     var fga = 0;
+		for(var i = 0; i<database.length;i++)
+		{
+			for(var x = 0;x<database[i].length;x++)
+			{
+				
+				fg += parseInt(database[i][x].FG);
+				fga += parseInt(database[i][x].FGA);
+				
+			}
+			fg = fg/fga;
+			data.addRows([
+	          [String(1950+i),fg*100]
+	        ]);
+	      
+	       
+	        fg = 0;
+	        fga = 0;
+	        
+		}
+	        // Set chart options
+	        var options = {'title':'Field goal percentage',
+	                       'width':800,
+	                       'height':500};
+
+	        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+	        chart.draw(data, options);
+	      }
