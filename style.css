@@ -6,3 +6,13 @@ margin-left: 100px;
 p{
 	display: inline;
 }
+
+#slider-range{
+	margin-left: 150px;
+	margin-top: 10px;
+	width: 500px;
+}
+
+label {
+	margin-left: 300px;
+}
