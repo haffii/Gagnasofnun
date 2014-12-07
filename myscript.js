@@ -1,8 +1,3 @@
-var database = [];
-var seasons = [];
-var chart = 0;
-var from = 0;
-var to = 0;
 
 google.load('visualization', '1.0', {'packages':['corechart']});
 google.setOnLoadCallback(start);
@@ -52,31 +47,27 @@ function dostuff(breyta){
 	});
 }
 
-function timeController($scope) {
-	$scope.changeFrom = function() {
-		tempfrom = $scope.FROM;
-		if(tempfrom > 1949 && tempfrom < 2015){
-			from = tempfrom - 1950;
-			if(chart == 0)
-				{drawppg();}
 
-			else if(chart == 1){
-				drawfgp()
-			}
-		}
+$(function() {
+$( "#slider-range" ).slider({
+range: true,
+min: 1950,
+max: 2014,
+values: [ 1950, 2014 ],
+slide: function( event, ui ) {
+$( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+	from = ui.values[0]- 1950;
+	to = ui.values[1]- 1949
+	if(chartType == 0){
+		drawppg();
 	}
-	$scope.changeTo = function() {
-			tempto = $scope.TO;
-			if(tempto > from + 1950 && tempto< 2015){
-				to = tempto-1949;
-				if(chart == 0){
-					drawppg();
-				}
+	else if(chartType == 1){
+		drawfgp();
+	}
 
-				else if(chart == 1){
-					drawfgp();
-				}
-			}
-		};
-	
 }
+});
+$( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) +
+" - " + $( "#slider-range" ).slider( "values", 1 ) );
+});
+

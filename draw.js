@@ -1,5 +1,5 @@
 function drawppg() {
-	chart = 0;
+	chartType = 0;
 	if(to == 0){
 		to = database.length;
 	}
@@ -37,7 +37,7 @@ chart.draw(data, options);
 
 function drawfgp()
 {
-	chart = 1;
+	chartType = 1;
 	if(to == 0){
 		to =database.length;
 	}

@@ -3,14 +3,17 @@
 <head>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
+	
+
 	<script src="jquery-1.11.1.js"></script>
 	<script src="angular.js"></script>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
+<link rel="stylesheet" href="lib/jquery-ui-1.11.2.custom/jquery-ui.css">
+<script src="lib/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
 
-	
-	<script src="draw.js"></script>
-
+<script src="globalvar.js"></script>
+	 <script src="draw.js"></script>
 	<script src="myscript.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Basketball statistics</title>
@@ -22,13 +25,12 @@
 		<button id="ppg" onclick="drawppg()">PPG</button>
 		<button id="fgp" onclick="drawfgp()">FG%</button>
 	</div>
-	<div ng-app="" ng-controller="timeController" id="time_div" >
-		from:
-		<input id="from" type="text" ng-model="FROM" ng-change="changeFrom()"/>
-		to:
-		<input id="from" type="text" ng-model="TO" ng-change="changeTo()"/>
-	</div>
-
+<p>
+<label for="amount">Time period:</label>
+<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+</p>
+<div id="slider-range">
+</div>
 </body>
 
 </html>
