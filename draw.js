@@ -27,9 +27,15 @@ function drawppg() {
 
 	}
 // Set chart options
-var options = {'title':'Average points scored per game',
-'width':800,
-'height':500};
+var options = 
+{
+	'title':'Average points scored per game',
+	'width':800,
+	'height':500,
+	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: 'Average Points', titleTextStyle: {color: 'black',bold: true, fontSize: 20, italic: false }},
+    
+};
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 chart.draw(data, options);
@@ -65,9 +71,14 @@ function drawfgp()
 
 	}
 // Set chart options
-var options = {'title':'Field goal percentage',
-'width':800,
-'height':500};
+var options = 
+{
+	'title':'Field goals made percentage',
+	'width':800,
+	'height':500,
+	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: 'Percentage', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+};
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 chart.draw(data, options);
@@ -81,7 +92,7 @@ function drawheight()
 	}
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
-	data.addColumn('number', 'height');
+	data.addColumn('number', 'Height');
 	
 	for(var i = from; i<to;i++)
 	{
@@ -92,9 +103,14 @@ function drawheight()
 
 	}
 // Set chart options
-var options = {'title':'Average player height',
-'width':800,
-'height':500};
+var options = 
+{	
+	'title':'Average player height',
+	'width':800,
+	'height':500,
+	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: 'Height (cm)', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+};
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 chart.draw(data, options);
