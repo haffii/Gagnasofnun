@@ -27,7 +27,7 @@ function drawppg() {
 
 	}
 // Set chart options
-var options = {'title':'average points scored per game',
+var options = {'title':'Average points scored per game',
 'width':800,
 'height':500};
 
@@ -92,7 +92,7 @@ function drawheight()
 
 	}
 // Set chart options
-var options = {'title':'Average height in cm',
+var options = {'title':'Average player height',
 'width':800,
 'height':500};
 
