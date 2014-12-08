@@ -51,8 +51,8 @@ button {
    }
 button:hover {
    border-top-color: #7886c4;
-   background: #7886c4;
-   color: #4c3b82;
+   background: #485BAB;
+   color: #ffffff;
    }
 button:active {
    border-top-color: #1b435e;
