@@ -17,21 +17,26 @@
 	<script src="myscript.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>NBA Statistics</title>
-	<img src="images/banner.png" alt="NBA Statistics" width="60%" height="60%">
 </head>
 <body>
-	<div id="chart_div"></div>
+	<img src="images/banner.png" alt="NBA Statistics" width="100%" height="60%">
+	<div id = "body">
+
 	<div id="chart_buttons">
 		<p>Charts : </p>
 		<button id="ppg" onclick="drawppg()">PPG</button>
 		<button id="fgp" onclick="drawfgp()">FG%</button>
 		<button id="fgp" onclick="drawheight()">Height</button>
 	</div>
-<p>
-<label for="amount">Time period:</label>
-<input type="text" id="amount" readonly style="border:0; color:#374ca6; font-weight:bold;">
-</p>
-<div id="slider-range">
+
+	<div id="chart_div"></div>
+
+	<p>
+	<label for="amount">Time period:</label>
+	<input type="text" id="amount" readonly style="border:0; color:#374ca6; font-weight:bold;">
+	</p>
+	<div id="slider-range">
+</div>
 </div>
 </body>
 
