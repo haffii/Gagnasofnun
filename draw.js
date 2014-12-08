@@ -34,7 +34,7 @@ var options =
 	'height':500,
 	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     vAxis: {title: 'Average Points', titleTextStyle: {color: 'black',bold: true, fontSize: 20, italic: false }},
-    
+    series: {0:{color: '374ca6'}}
 };
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
@@ -78,6 +78,7 @@ var options =
 	'height':500,
 	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     vAxis: {title: 'Percentage', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    series: {0:{color: '374ca6'}}
 };
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
@@ -110,6 +111,7 @@ var options =
 	'height':500,
 	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     vAxis: {title: 'Height (cm)', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    series: {0:{color: '374ca6'}}
 };
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
