@@ -10,59 +10,9 @@ function start(){
 	{
 		dostuff(i);	
 	}
-	
-	for (var i = 65; i < 91; i++) {
-		var stafur = String.fromCharCode(i) ;
-		
-		byname(stafur);
-
-	};
 
 }
-function byname(stafur){
-	$.ajax({
-			dataType: "json",
-			url: "data/"+stafur+".json",
-			mimeType: "application/json",
-			success: function(data){
-				players.push(data);
-				if(stafur == "Z")
-				{
-					var avgold = 0;
-					var countold = 0;
-					
-				for(var z = 0;z<database.length;z++){
-								
-							
-					for(var i = 0; i<players.length; i++)
-					{
-						for(var x = 0; x<players[i].length;x++)
-						{						
-							
 
-							if(players[i][x].To<1950+z){
-								var height = 0;
-								height = 12*players[i][x].Ht[0];
-								height += parseInt(players[i][x].Ht[2]);				
-								height = height*2.54;
-								avgold+=height;
-								countold++;	
-								}
-												
-						}
-						
-					}
-					avgold = avgold/countold;
-
-					avgHeight.push(avgold);
-					avgold=0;
-					countold=0;
-					}
-
-				}
-			}
-		});
-}
 function dostuff(breyta){
 	$.ajax({
 		dataType: "json",
