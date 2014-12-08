@@ -77,7 +77,7 @@ var options =
 	'width':800,
 	'height':500,
 	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: 'Percentage', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: 'Percentage', format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     series: {0:{color: '374ca6'}}
 };
 
@@ -110,7 +110,7 @@ var options =
 	'width':800,
 	'height':500,
 	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: 'Height (cm)', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: 'Height (cm)',  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     series: {0:{color: '374ca6'}}
 };
 
