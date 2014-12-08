@@ -1,0 +1,2982 @@
+[
+    {
+        "Player": "Rudy Hackett",
+        "From": "1976",
+        "To": "1977",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "210",
+        "Birth Date": "May 10 1953",
+        "College": "Syracuse University"
+    },
+    {
+        "Player": "Hamed Haddadi",
+        "From": "2009",
+        "To": "2013",
+        "Pos": "C",
+        "Ht": "7-2",
+        "Wt": "254",
+        "Birth Date": "May 19 1985",
+        "College": ""
+    },
+    {
+        "Player": "Jim Hadnot",
+        "From": "1968",
+        "To": "1968",
+        "Pos": "C-F",
+        "Ht": "6-10",
+        "Wt": "235",
+        "Birth Date": "January 15 1940",
+        "College": "Providence College"
+    },
+    {
+        "Player": "Scott Haffner",
+        "From": "1990",
+        "To": "1991",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "180",
+        "Birth Date": "February 2 1966",
+        "College": "University of Evansville"
+    },
+    {
+        "Player": "Cliff Hagan*",
+        "From": "1957",
+        "To": "1970",
+        "Pos": "F-G",
+        "Ht": "6-4",
+        "Wt": "210",
+        "Birth Date": "December 9 1931",
+        "College": "University of Kentucky"
+    },
+    {
+        "Player": "Glenn Hagan",
+        "From": "1982",
+        "To": "1982",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "170",
+        "Birth Date": "June 25 1955",
+        "College": "St. Bonaventure University"
+    },
+    {
+        "Player": "Tom Hagan",
+        "From": "1970",
+        "To": "1971",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "January 29 1947",
+        "College": "Vanderbilt University"
+    },
+    {
+        "Player": "Robert Hahn",
+        "From": "1950",
+        "To": "1950",
+        "Pos": "C",
+        "Ht": "6-10",
+        "Wt": "240",
+        "Birth Date": "August 25 1925",
+        "College": "North Carolina State University"
+    },
+    {
+        "Player": "Al Hairston",
+        "From": "1969",
+        "To": "1970",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "170",
+        "Birth Date": "December 11 1945",
+        "College": "Bowling Green State University"
+    },
+    {
+        "Player": "Happy Hairston",
+        "From": "1965",
+        "To": "1975",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "225",
+        "Birth Date": "May 31 1942",
+        "College": "New York University"
+    },
+    {
+        "Player": "Lindsay Hairston",
+        "From": "1976",
+        "To": "1976",
+        "Pos": "F-C",
+        "Ht": "6-7",
+        "Wt": "180",
+        "Birth Date": "December 8 1951",
+        "College": "Michigan State University"
+    },
+    {
+        "Player": "Malik Hairston",
+        "From": "2009",
+        "To": "2010",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "220",
+        "Birth Date": "February 23 1987",
+        "College": "University of Oregon"
+    },
+    {
+        "Player": "P.J. Hairston",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "G-F",
+        "Ht": "6-6",
+        "Wt": "230",
+        "Birth Date": "December 24 1992",
+        "College": "University of North Carolina"
+    },
+    {
+        "Player": "Marcus Haislip",
+        "From": "2003",
+        "To": "2010",
+        "Pos": "F",
+        "Ht": "6-10",
+        "Wt": "230",
+        "Birth Date": "December 22 1980",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Chick Halbert",
+        "From": "1947",
+        "To": "1951",
+        "Pos": "C",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "February 27 1919",
+        "College": "West Texas A&M University"
+    },
+    {
+        "Player": "Swede Halbrook",
+        "From": "1961",
+        "To": "1962",
+        "Pos": "C",
+        "Ht": "7-3",
+        "Wt": "235",
+        "Birth Date": "January 30 1933",
+        "College": "Oregon State University"
+    },
+    {
+        "Player": "Bruce Hale",
+        "From": "1949",
+        "To": "1951",
+        "Pos": "G-F",
+        "Ht": "6-1",
+        "Wt": "170",
+        "Birth Date": "August 30 1918",
+        "College": "Santa Clara University"
+    },
+    {
+        "Player": "Hal Hale",
+        "From": "1968",
+        "To": "1968",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "180",
+        "Birth Date": "September 21 1945",
+        "College": "Utah State University"
+    },
+    {
+        "Player": "Jack Haley",
+        "From": "1989",
+        "To": "1998",
+        "Pos": "C-F",
+        "Ht": "6-10",
+        "Wt": "240",
+        "Birth Date": "January 27 1964",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Shaler Halimon",
+        "From": "1969",
+        "To": "1973",
+        "Pos": "G-F",
+        "Ht": "6-5",
+        "Wt": "199",
+        "Birth Date": "March 30 1945",
+        "College": "Utah State University"
+    },
+    {
+        "Player": "Mike Hall",
+        "From": "2007",
+        "To": "2007",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "230",
+        "Birth Date": "June 5 1984",
+        "College": "George Washington University"
+    },
+    {
+        "Player": "Jeff Halliburton",
+        "From": "1972",
+        "To": "1973",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "193",
+        "Birth Date": "July 3 1949",
+        "College": "Drake University"
+    },
+    {
+        "Player": "Darvin Ham",
+        "From": "1997",
+        "To": "2005",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "July 23 1973",
+        "College": "Texas Tech University"
+    },
+    {
+        "Player": "Steve Hamer",
+        "From": "1997",
+        "To": "1997",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "245",
+        "Birth Date": "November 13 1973",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Dale Hamilton",
+        "From": "1950",
+        "To": "1950",
+        "Pos": "G-F",
+        "Ht": "6-0",
+        "Wt": "180",
+        "Birth Date": "August 16 1919",
+        "College": "Franklin College"
+    },
+    {
+        "Player": "Dennis Hamilton",
+        "From": "1968",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "210",
+        "Birth Date": "May 8 1944",
+        "College": "Arizona State University"
+    },
+    {
+        "Player": "Joe Hamilton",
+        "From": "1971",
+        "To": "1976",
+        "Pos": "G",
+        "Ht": "5-10",
+        "Wt": "160",
+        "Birth Date": "July 5 1948",
+        "College": "University of North Texas"
+    },
+    {
+        "Player": "Jordan Hamilton",
+        "From": "2012",
+        "To": "2014",
+        "Pos": "G-F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "October 6 1990",
+        "College": "University of Texas at Austin"
+    },
+    {
+        "Player": "Justin Hamilton",
+        "From": "2014",
+        "To": "2015",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "260",
+        "Birth Date": "April 1 1990",
+        "College": "Louisiana State University"
+    },
+    {
+        "Player": "Ralph Hamilton",
+        "From": "1949",
+        "To": "1949",
+        "Pos": "G-F",
+        "Ht": "6-1",
+        "Wt": "188",
+        "Birth Date": "June 10 1921",
+        "College": "Indiana University"
+    },
+    {
+        "Player": "Richard Hamilton",
+        "From": "2000",
+        "To": "2013",
+        "Pos": "G-F",
+        "Ht": "6-6",
+        "Wt": "185",
+        "Birth Date": "February 14 1978",
+        "College": "University of Connecticut"
+    },
+    {
+        "Player": "Roy Hamilton",
+        "From": "1980",
+        "To": "1981",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "180",
+        "Birth Date": "July 20 1957",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Steve Hamilton",
+        "From": "1959",
+        "To": "1960",
+        "Pos": "F-C",
+        "Ht": "6-6",
+        "Wt": "190",
+        "Birth Date": "November 30 1935",
+        "College": "Morehead State University"
+    },
+    {
+        "Player": "Tang Hamilton",
+        "From": "2002",
+        "To": "2002",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "220",
+        "Birth Date": "May 26 1978",
+        "College": "Mississippi State University"
+    },
+    {
+        "Player": "Thomas Hamilton",
+        "From": "1996",
+        "To": "2000",
+        "Pos": "C",
+        "Ht": "7-2",
+        "Wt": "330",
+        "Birth Date": "April 3 1975",
+        "College": "University of Pittsburgh"
+    },
+    {
+        "Player": "Zendon Hamilton",
+        "From": "2001",
+        "To": "2006",
+        "Pos": "F",
+        "Ht": "6-11",
+        "Wt": "250",
+        "Birth Date": "April 27 1975",
+        "College": "St. John's University"
+    },
+    {
+        "Player": "Geert Hammink",
+        "From": "1994",
+        "To": "1996",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "262",
+        "Birth Date": "July 12 1969",
+        "College": "Louisiana State University"
+    },
+    {
+        "Player": "Julian Hammond",
+        "From": "1968",
+        "To": "1972",
+        "Pos": "F",
+        "Ht": "6-5",
+        "Wt": "205",
+        "Birth Date": "May 27 1943",
+        "College": "University of Tulsa"
+    },
+    {
+        "Player": "Tom Hammonds",
+        "From": "1990",
+        "To": "2001",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "215",
+        "Birth Date": "March 27 1967",
+        "College": "Georgia Institute of Technology"
+    },
+    {
+        "Player": "Joe Hamood",
+        "From": "1968",
+        "To": "1968",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "180",
+        "Birth Date": "September 7 1943",
+        "College": "University of Houston"
+    },
+    {
+        "Player": "Darrin Hancock",
+        "From": "1995",
+        "To": "1997",
+        "Pos": "G-F",
+        "Ht": "6-7",
+        "Wt": "205",
+        "Birth Date": "November 3 1971",
+        "College": "University of Kansas"
+    },
+    {
+        "Player": "Ben Handlogten",
+        "From": "2004",
+        "To": "2005",
+        "Pos": "F",
+        "Ht": "6-10",
+        "Wt": "240",
+        "Birth Date": "November 16 1973",
+        "College": "Western Michigan University"
+    },
+    {
+        "Player": "Cecil Hankins",
+        "From": "1947",
+        "To": "1948",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "175",
+        "Birth Date": "January 6 1922",
+        "College": "Oklahoma State University"
+    },
+    {
+        "Player": "Phil Hankinson",
+        "From": "1974",
+        "To": "1975",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "195",
+        "Birth Date": "July 26 1951",
+        "College": "University of Pennsylvania"
+    },
+    {
+        "Player": "Alex Hannum*",
+        "From": "1950",
+        "To": "1957",
+        "Pos": "F-C",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "July 19 1923",
+        "College": "University of Southern California"
+    },
+    {
+        "Player": "Don Hanrahan",
+        "From": "1953",
+        "To": "1953",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "200",
+        "Birth Date": "February 6 1929",
+        "College": "Loyola University of Chicago"
+    },
+    {
+        "Player": "Rollen Hans",
+        "From": "1954",
+        "To": "1955",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "210",
+        "Birth Date": "April 13 1931",
+        "College": "Long Island University"
+    },
+    {
+        "Player": "Ben Hansbrough",
+        "From": "2013",
+        "To": "2013",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "203",
+        "Birth Date": "December 23 1987",
+        "College": "University of Notre Dame"
+    },
+    {
+        "Player": "Tyler Hansbrough",
+        "From": "2010",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "250",
+        "Birth Date": "November 3 1985",
+        "College": "University of North Carolina"
+    },
+    {
+        "Player": "Bob Hansen",
+        "From": "1984",
+        "To": "1992",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "190",
+        "Birth Date": "January 18 1961",
+        "College": "University of Iowa"
+    },
+    {
+        "Player": "Glenn Hansen",
+        "From": "1976",
+        "To": "1978",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "205",
+        "Birth Date": "April 21 1952",
+        "College": "Louisiana State University"
+    },
+    {
+        "Player": "Lars Hansen",
+        "From": "1979",
+        "To": "1979",
+        "Pos": "C",
+        "Ht": "6-10",
+        "Wt": "225",
+        "Birth Date": "September 14 1954",
+        "College": "University of Washington"
+    },
+    {
+        "Player": "Travis Hansen",
+        "From": "2004",
+        "To": "2004",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "205",
+        "Birth Date": "April 15 1978",
+        "College": "Brigham Young University"
+    },
+    {
+        "Player": "Reggie Hanson",
+        "From": "1998",
+        "To": "1998",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "195",
+        "Birth Date": "October 6 1968",
+        "College": "University of Kentucky"
+    },
+    {
+        "Player": "Bill Hanzlik",
+        "From": "1981",
+        "To": "1990",
+        "Pos": "G-F",
+        "Ht": "6-7",
+        "Wt": "185",
+        "Birth Date": "December 6 1957",
+        "College": "University of Notre Dame"
+    },
+    {
+        "Player": "Luke Harangody",
+        "From": "2011",
+        "To": "2012",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "246",
+        "Birth Date": "January 2 1988",
+        "College": "University of Notre Dame"
+    },
+    {
+        "Player": "Anfernee Hardaway",
+        "From": "1994",
+        "To": "2008",
+        "Pos": "G-F",
+        "Ht": "6-7",
+        "Wt": "195",
+        "Birth Date": "July 18 1971",
+        "College": "University of Memphis"
+    },
+    {
+        "Player": "Tim Hardaway",
+        "From": "1990",
+        "To": "2003",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "175",
+        "Birth Date": "September 1 1966",
+        "College": "University of Texas at El Paso"
+    },
+    {
+        "Player": "Tim Hardaway",
+        "From": "2014",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "205",
+        "Birth Date": "March 16 1992",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "James Harden",
+        "From": "2010",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "220",
+        "Birth Date": "August 26 1989",
+        "College": "Arizona State University"
+    },
+    {
+        "Player": "Reggie Harding",
+        "From": "1964",
+        "To": "1968",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "249",
+        "Birth Date": "May 4 1942",
+        "College": ""
+    },
+    {
+        "Player": "Charlie Hardnett",
+        "From": "1963",
+        "To": "1965",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "225",
+        "Birth Date": "September 13 1938",
+        "College": "Grambling State University"
+    },
+    {
+        "Player": "Alan Hardy",
+        "From": "1981",
+        "To": "1982",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "195",
+        "Birth Date": "May 25 1957",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "Darrell Hardy",
+        "From": "1968",
+        "To": "1968",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "",
+        "College": "Baylor University"
+    },
+    {
+        "Player": "James Hardy",
+        "From": "1979",
+        "To": "1982",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "220",
+        "Birth Date": "December 1 1956",
+        "College": "University of San Francisco"
+    },
+    {
+        "Player": "Ira Harge",
+        "From": "1968",
+        "To": "1973",
+        "Pos": "C",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "March 14 1941",
+        "College": "University of New Mexico"
+    },
+    {
+        "Player": "John Hargis",
+        "From": "1950",
+        "To": "1951",
+        "Pos": "G-F",
+        "Ht": "6-2",
+        "Wt": "180",
+        "Birth Date": "August 20 1920",
+        "College": "University of Texas at Austin"
+    },
+    {
+        "Player": "Maurice Harkless",
+        "From": "2013",
+        "To": "2015",
+        "Pos": "G-F",
+        "Ht": "6-8",
+        "Wt": "208",
+        "Birth Date": "May 11 1993",
+        "College": "St. John's University"
+    },
+    {
+        "Player": "Jerry Harkness",
+        "From": "1964",
+        "To": "1969",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "175",
+        "Birth Date": "May 7 1940",
+        "College": "Loyola University of Chicago"
+    },
+    {
+        "Player": "Skip Harlicka",
+        "From": "1969",
+        "To": "1969",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "185",
+        "Birth Date": "October 14 1946",
+        "College": "University of South Carolina"
+    },
+    {
+        "Player": "Jerome Harmon",
+        "From": "1995",
+        "To": "1995",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "190",
+        "Birth Date": "February 6 1969",
+        "College": "University of Louisville"
+    },
+    {
+        "Player": "Derek Harper",
+        "From": "1984",
+        "To": "1999",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "October 13 1961",
+        "College": "University of Illinois at Urbana-Champaign"
+    },
+    {
+        "Player": "Justin Harper",
+        "From": "2012",
+        "To": "2012",
+        "Pos": "F",
+        "Ht": "6-10",
+        "Wt": "225",
+        "Birth Date": "August 30 1989",
+        "College": "University of Richmond"
+    },
+    {
+        "Player": "Mike Harper",
+        "From": "1981",
+        "To": "1982",
+        "Pos": "C-F",
+        "Ht": "6-10",
+        "Wt": "195",
+        "Birth Date": "December 9 1957",
+        "College": "North Park University"
+    },
+    {
+        "Player": "Ron Harper",
+        "From": "1987",
+        "To": "2001",
+        "Pos": "G-F",
+        "Ht": "6-6",
+        "Wt": "185",
+        "Birth Date": "January 20 1964",
+        "College": "Miami University"
+    },
+    {
+        "Player": "Matt Harpring",
+        "From": "1999",
+        "To": "2009",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "231",
+        "Birth Date": "May 31 1976",
+        "College": "Georgia Institute of Technology"
+    },
+    {
+        "Player": "Josh Harrellson",
+        "From": "2012",
+        "To": "2014",
+        "Pos": "C",
+        "Ht": "6-10",
+        "Wt": "275",
+        "Birth Date": "February 12 1989",
+        "College": "University of Kentucky"
+    },
+    {
+        "Player": "Adam Harrington",
+        "From": "2003",
+        "To": "2003",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "200",
+        "Birth Date": "July 5 1980",
+        "College": "Auburn University"
+    },
+    {
+        "Player": "Al Harrington",
+        "From": "1999",
+        "To": "2014",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "230",
+        "Birth Date": "February 17 1980",
+        "College": ""
+    },
+    {
+        "Player": "Junior Harrington",
+        "From": "2003",
+        "To": "2007",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "180",
+        "Birth Date": "October 2 1980",
+        "College": "Wingate University"
+    },
+    {
+        "Player": "Othella Harrington",
+        "From": "1997",
+        "To": "2008",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "235",
+        "Birth Date": "January 31 1974",
+        "College": "Georgetown University"
+    },
+    {
+        "Player": "Art Harris",
+        "From": "1969",
+        "To": "1972",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "January 13 1947",
+        "College": "Stanford University"
+    },
+    {
+        "Player": "Bernie Harris",
+        "From": "1975",
+        "To": "1975",
+        "Pos": "F",
+        "Ht": "6-10",
+        "Wt": "200",
+        "Birth Date": "November 26 1950",
+        "College": "Virginia Commonwealth University"
+    },
+    {
+        "Player": "Billy Harris",
+        "From": "1975",
+        "To": "1975",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "185",
+        "Birth Date": "November 12 1951",
+        "College": "Northern Illinois University"
+    },
+    {
+        "Player": "Bob Harris",
+        "From": "1950",
+        "To": "1954",
+        "Pos": "F-C",
+        "Ht": "6-7",
+        "Wt": "195",
+        "Birth Date": "March 16 1927",
+        "College": "Oklahoma State University"
+    },
+    {
+        "Player": "Chris Harris",
+        "From": "1956",
+        "To": "1956",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "August 11 1933",
+        "College": "University of Dayton"
+    },
+    {
+        "Player": "Devin Harris",
+        "From": "2005",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "February 27 1983",
+        "College": "University of Wisconsin"
+    },
+    {
+        "Player": "Elias Harris",
+        "From": "2014",
+        "To": "2014",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "239",
+        "Birth Date": "July 6 1989",
+        "College": "Gonzaga University"
+    },
+    {
+        "Player": "Gary Harris",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "210",
+        "Birth Date": "September 14 1994",
+        "College": "Michigan State University"
+    },
+    {
+        "Player": "Joe Harris",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "225",
+        "Birth Date": "September 7 1991",
+        "College": "University of Virginia"
+    },
+    {
+        "Player": "Lucious Harris",
+        "From": "1994",
+        "To": "2005",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "190",
+        "Birth Date": "December 18 1970",
+        "College": "California State University Long Beach"
+    },
+    {
+        "Player": "Manny Harris",
+        "From": "2011",
+        "To": "2014",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "185",
+        "Birth Date": "September 21 1989",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "Mike Harris",
+        "From": "2008",
+        "To": "2014",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "240",
+        "Birth Date": "June 15 1983",
+        "College": "Rice University"
+    },
+    {
+        "Player": "Steve Harris",
+        "From": "1986",
+        "To": "1990",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "195",
+        "Birth Date": "October 15 1963",
+        "College": "University of Tulsa"
+    },
+    {
+        "Player": "Terrel Harris",
+        "From": "2012",
+        "To": "2013",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "190",
+        "Birth Date": "August 10 1987",
+        "College": "Oklahoma State University"
+    },
+    {
+        "Player": "Tobias Harris",
+        "From": "2012",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "226",
+        "Birth Date": "July 15 1992",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Tony Harris",
+        "From": "1991",
+        "To": "1995",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "May 13 1967",
+        "College": "University of New Orleans"
+    },
+    {
+        "Player": "Bob Harrison",
+        "From": "1950",
+        "To": "1958",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "190",
+        "Birth Date": "August 12 1927",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "David Harrison",
+        "From": "2005",
+        "To": "2008",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "280",
+        "Birth Date": "August 15 1982",
+        "College": "University of Colorado"
+    },
+    {
+        "Player": "Jason Hart",
+        "From": "2001",
+        "To": "2010",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "April 29 1978",
+        "College": "Syracuse University"
+    },
+    {
+        "Player": "Antonio Harvey",
+        "From": "1994",
+        "To": "2003",
+        "Pos": "F-C",
+        "Ht": "6-11",
+        "Wt": "225",
+        "Birth Date": "July 6 1970",
+        "College": "Pfeiffer University"
+    },
+    {
+        "Player": "Donnell Harvey",
+        "From": "2001",
+        "To": "2005",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "220",
+        "Birth Date": "August 26 1980",
+        "College": "University of Florida"
+    },
+    {
+        "Player": "Scott Haskin",
+        "From": "1994",
+        "To": "1994",
+        "Pos": "C-F",
+        "Ht": "6-11",
+        "Wt": "250",
+        "Birth Date": "September 19 1970",
+        "College": "Oregon State University"
+    },
+    {
+        "Player": "Clem Haskins",
+        "From": "1968",
+        "To": "1976",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "195",
+        "Birth Date": "July 11 1943",
+        "College": "Western Kentucky University"
+    },
+    {
+        "Player": "Udonis Haslem",
+        "From": "2004",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "230",
+        "Birth Date": "June 9 1980",
+        "College": "University of Florida"
+    },
+    {
+        "Player": "Trenton Hassell",
+        "From": "2002",
+        "To": "2010",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "200",
+        "Birth Date": "March 4 1979",
+        "College": "Austin Peay State University"
+    },
+    {
+        "Player": "Billy Hassett",
+        "From": "1950",
+        "To": "1951",
+        "Pos": "G",
+        "Ht": "5-11",
+        "Wt": "180",
+        "Birth Date": "October 21 1921",
+        "College": "University of Notre Dame"
+    },
+    {
+        "Player": "Joe Hassett",
+        "From": "1978",
+        "To": "1983",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "180",
+        "Birth Date": "September 11 1955",
+        "College": "Providence College"
+    },
+    {
+        "Player": "Scott Hastings",
+        "From": "1983",
+        "To": "1993",
+        "Pos": "F-C",
+        "Ht": "6-10",
+        "Wt": "235",
+        "Birth Date": "June 3 1960",
+        "College": "University of Arkansas"
+    },
+    {
+        "Player": "Kirk Haston",
+        "From": "2002",
+        "To": "2003",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "242",
+        "Birth Date": "March 10 1979",
+        "College": "Indiana University"
+    },
+    {
+        "Player": "Vern Hatton",
+        "From": "1959",
+        "To": "1962",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "195",
+        "Birth Date": "January 13 1936",
+        "College": "University of Kentucky"
+    },
+    {
+        "Player": "John Havlicek*",
+        "From": "1963",
+        "To": "1978",
+        "Pos": "F-G",
+        "Ht": "6-5",
+        "Wt": "203",
+        "Birth Date": "April 8 1940",
+        "College": "Ohio State University"
+    },
+    {
+        "Player": "Spencer Hawes",
+        "From": "2008",
+        "To": "2015",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "245",
+        "Birth Date": "April 28 1988",
+        "College": "University of Washington"
+    },
+    {
+        "Player": "Steve Hawes",
+        "From": "1975",
+        "To": "1984",
+        "Pos": "C-F",
+        "Ht": "6-9",
+        "Wt": "220",
+        "Birth Date": "May 26 1950",
+        "College": "University of Washington"
+    },
+    {
+        "Player": "Connie Hawkins*",
+        "From": "1968",
+        "To": "1976",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "210",
+        "Birth Date": "July 17 1942",
+        "College": "University of Iowa"
+    },
+    {
+        "Player": "Hersey Hawkins",
+        "From": "1989",
+        "To": "2001",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "September 29 1966",
+        "College": "Bradley University"
+    },
+    {
+        "Player": "Juaquin Hawkins",
+        "From": "2003",
+        "To": "2003",
+        "Pos": "G-F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "July 2 1973",
+        "College": "California State University Long Beach"
+    },
+    {
+        "Player": "Marshall Hawkins",
+        "From": "1950",
+        "To": "1950",
+        "Pos": "F",
+        "Ht": "6-3",
+        "Wt": "205",
+        "Birth Date": "August 3 1924",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Michael Hawkins",
+        "From": "1997",
+        "To": "2001",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "178",
+        "Birth Date": "October 28 1972",
+        "College": "Xavier University"
+    },
+    {
+        "Player": "Robert Hawkins",
+        "From": "1976",
+        "To": "1979",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "190",
+        "Birth Date": "June 30 1954",
+        "College": "Illinois State University"
+    },
+    {
+        "Player": "Tom Hawkins",
+        "From": "1960",
+        "To": "1969",
+        "Pos": "F",
+        "Ht": "6-5",
+        "Wt": "210",
+        "Birth Date": "December 22 1936",
+        "College": "University of Notre Dame"
+    },
+    {
+        "Player": "Nate Hawthorne",
+        "From": "1974",
+        "To": "1976",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "190",
+        "Birth Date": "January 15 1950",
+        "College": "Southern Illinois University"
+    },
+    {
+        "Player": "Chuck Hayes",
+        "From": "2006",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "240",
+        "Birth Date": "June 11 1983",
+        "College": "University of Kentucky"
+    },
+    {
+        "Player": "Elvin Hayes*",
+        "From": "1969",
+        "To": "1984",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "235",
+        "Birth Date": "November 17 1945",
+        "College": "University of Houston"
+    },
+    {
+        "Player": "Jarvis Hayes",
+        "From": "2004",
+        "To": "2010",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "August 9 1981",
+        "College": "University of Georgia"
+    },
+    {
+        "Player": "Jim Hayes",
+        "From": "1971",
+        "To": "1971",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "200",
+        "Birth Date": "February 18 1948",
+        "College": "Boston University"
+    },
+    {
+        "Player": "Steve Hayes",
+        "From": "1982",
+        "To": "1986",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "205",
+        "Birth Date": "August 2 1955",
+        "College": "Idaho State University"
+    },
+    {
+        "Player": "Gordon Hayward",
+        "From": "2011",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "207",
+        "Birth Date": "March 23 1990",
+        "College": "Butler University"
+    },
+    {
+        "Player": "Lazar Hayward",
+        "From": "2011",
+        "To": "2013",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "225",
+        "Birth Date": "November 26 1986",
+        "College": "Marquette University"
+    },
+    {
+        "Player": "Brendan Haywood",
+        "From": "2002",
+        "To": "2015",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "268",
+        "Birth Date": "November 27 1979",
+        "College": "University of North Carolina"
+    },
+    {
+        "Player": "Spencer Haywood",
+        "From": "1970",
+        "To": "1983",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "225",
+        "Birth Date": "April 22 1949",
+        "College": "University of Detroit Mercy"
+    },
+    {
+        "Player": "John Hazen",
+        "From": "1949",
+        "To": "1949",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "172",
+        "Birth Date": "March 2 1927",
+        "College": "Indiana State University"
+    },
+    {
+        "Player": "Luther Head",
+        "From": "2006",
+        "To": "2011",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "November 26 1982",
+        "College": "University of Illinois at Urbana-Champaign"
+    },
+    {
+        "Player": "Shane Heal",
+        "From": "1997",
+        "To": "2004",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "180",
+        "Birth Date": "September 6 1970",
+        "College": ""
+    },
+    {
+        "Player": "Brian Heaney",
+        "From": "1970",
+        "To": "1970",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "180",
+        "Birth Date": "September 3 1946",
+        "College": "Acadia University"
+    },
+    {
+        "Player": "Gar Heard",
+        "From": "1971",
+        "To": "1981",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "219",
+        "Birth Date": "May 3 1948",
+        "College": "University of Oklahoma"
+    },
+    {
+        "Player": "Herm Hedderick",
+        "From": "1955",
+        "To": "1955",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "170",
+        "Birth Date": "January 1 1930",
+        "College": "Canisius College"
+    },
+    {
+        "Player": "Alvin Heggs",
+        "From": "1996",
+        "To": "1996",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "225",
+        "Birth Date": "December 12 1967",
+        "College": "University of Texas at Austin"
+    },
+    {
+        "Player": "Tom Heinsohn*",
+        "From": "1957",
+        "To": "1965",
+        "Pos": "F-C",
+        "Ht": "6-7",
+        "Wt": "218",
+        "Birth Date": "August 26 1934",
+        "College": "College of the Holy Cross"
+    },
+    {
+        "Player": "Dick Hemric",
+        "From": "1956",
+        "To": "1957",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "220",
+        "Birth Date": "August 29 1933",
+        "College": "Wake Forest University"
+    },
+    {
+        "Player": "Alan Henderson",
+        "From": "1996",
+        "To": "2007",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "235",
+        "Birth Date": "December 2 1972",
+        "College": "Indiana University"
+    },
+    {
+        "Player": "Cedric Henderson",
+        "From": "1987",
+        "To": "1987",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "210",
+        "Birth Date": "October 3 1965",
+        "College": "University of Georgia"
+    },
+    {
+        "Player": "Cedric Henderson",
+        "From": "1998",
+        "To": "2002",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "215",
+        "Birth Date": "March 11 1975",
+        "College": "University of Memphis"
+    },
+    {
+        "Player": "Dave Henderson",
+        "From": "1988",
+        "To": "1988",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "195",
+        "Birth Date": "July 21 1964",
+        "College": "Duke University"
+    },
+    {
+        "Player": "Gerald Henderson",
+        "From": "1980",
+        "To": "1992",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "175",
+        "Birth Date": "January 16 1956",
+        "College": "Virginia Commonwealth University"
+    },
+    {
+        "Player": "Gerald Henderson",
+        "From": "2010",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "215",
+        "Birth Date": "December 9 1987",
+        "College": "Duke University"
+    },
+    {
+        "Player": "J.R. Henderson",
+        "From": "1999",
+        "To": "1999",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "226",
+        "Birth Date": "October 30 1976",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Jerome Henderson",
+        "From": "1986",
+        "To": "1987",
+        "Pos": "C-F",
+        "Ht": "6-11",
+        "Wt": "230",
+        "Birth Date": "October 5 1959",
+        "College": "University of New Mexico"
+    },
+    {
+        "Player": "Kevin Henderson",
+        "From": "1987",
+        "To": "1988",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "195",
+        "Birth Date": "March 22 1964",
+        "College": "California State University Fullerton"
+    },
+    {
+        "Player": "Tom Henderson",
+        "From": "1975",
+        "To": "1983",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "January 26 1952",
+        "College": "University of Hawaii"
+    },
+    {
+        "Player": "Mark Hendrickson",
+        "From": "1997",
+        "To": "2000",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "220",
+        "Birth Date": "June 23 1974",
+        "College": "Washington State University"
+    },
+    {
+        "Player": "Larry Hennessy",
+        "From": "1956",
+        "To": "1957",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "May 20 1929",
+        "College": "Villanova University"
+    },
+    {
+        "Player": "Don Henriksen",
+        "From": "1953",
+        "To": "1955",
+        "Pos": "F-C",
+        "Ht": "6-7",
+        "Wt": "225",
+        "Birth Date": "October 10 1929",
+        "College": "University of California"
+    },
+    {
+        "Player": "Al Henry",
+        "From": "1971",
+        "To": "1972",
+        "Pos": "C",
+        "Ht": "6-9",
+        "Wt": "190",
+        "Birth Date": "February 9 1949",
+        "College": "University of Wisconsin"
+    },
+    {
+        "Player": "Bill Henry",
+        "From": "1949",
+        "To": "1950",
+        "Pos": "C",
+        "Ht": "6-9",
+        "Wt": "215",
+        "Birth Date": "December 27 1924",
+        "College": "Rice University"
+    },
+    {
+        "Player": "Carl Henry",
+        "From": "1986",
+        "To": "1986",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "205",
+        "Birth Date": "August 16 1960",
+        "College": "University of Kansas"
+    },
+    {
+        "Player": "Conner Henry",
+        "From": "1987",
+        "To": "1988",
+        "Pos": "G",
+        "Ht": "6-7",
+        "Wt": "195",
+        "Birth Date": "July 21 1963",
+        "College": "University of California Santa Barbara"
+    },
+    {
+        "Player": "Skeeter Henry",
+        "From": "1994",
+        "To": "1994",
+        "Pos": "G",
+        "Ht": "6-7",
+        "Wt": "190",
+        "Birth Date": "December 8 1967",
+        "College": "University of Oklahoma"
+    },
+    {
+        "Player": "Xavier Henry",
+        "From": "2011",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "220",
+        "Birth Date": "March 15 1991",
+        "College": "University of Kansas"
+    },
+    {
+        "Player": "John Henson",
+        "From": "2013",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-11",
+        "Wt": "220",
+        "Birth Date": "December 28 1990",
+        "College": "University of North Carolina"
+    },
+    {
+        "Player": "Steve Henson",
+        "From": "1991",
+        "To": "1999",
+        "Pos": "G",
+        "Ht": "5-11",
+        "Wt": "177",
+        "Birth Date": "February 2 1968",
+        "College": "Kansas State University"
+    },
+    {
+        "Player": "Charles Hentz",
+        "From": "1971",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-5",
+        "Wt": "210",
+        "Birth Date": "September 13 1947",
+        "College": "University of Arkansas at Pine Bluff"
+    },
+    {
+        "Player": "Bill Herman",
+        "From": "1950",
+        "To": "1950",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "170",
+        "Birth Date": "May 17 1924",
+        "College": "Mount Union College"
+    },
+    {
+        "Player": "Kleggie Hermsen",
+        "From": "1947",
+        "To": "1953",
+        "Pos": "C-F",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "March 12 1923",
+        "College": "University of Minnesota"
+    },
+    {
+        "Player": "Chris Herren",
+        "From": "2000",
+        "To": "2001",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "197",
+        "Birth Date": "September 27 1975",
+        "College": "California State University Fresno"
+    },
+    {
+        "Player": "Carl Herrera",
+        "From": "1992",
+        "To": "1999",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "215",
+        "Birth Date": "December 14 1966",
+        "College": "University of Houston"
+    },
+    {
+        "Player": "Walter Herrmann",
+        "From": "2007",
+        "To": "2009",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "June 26 1979",
+        "College": ""
+    },
+    {
+        "Player": "Keith Herron",
+        "From": "1979",
+        "To": "1982",
+        "Pos": "G-F",
+        "Ht": "6-6",
+        "Wt": "195",
+        "Birth Date": "June 14 1956",
+        "College": "Villanova University"
+    },
+    {
+        "Player": "Sonny Hertzberg",
+        "From": "1947",
+        "To": "1951",
+        "Pos": "G",
+        "Ht": "5-10",
+        "Wt": "175",
+        "Birth Date": "July 29 1922",
+        "College": "City College of New York"
+    },
+    {
+        "Player": "Dan Hester",
+        "From": "1971",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "210",
+        "Birth Date": "November 8 1948",
+        "College": "Louisiana State University"
+    },
+    {
+        "Player": "Fred Hetzel",
+        "From": "1966",
+        "To": "1971",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "220",
+        "Birth Date": "July 21 1942",
+        "College": "Davidson College"
+    },
+    {
+        "Player": "Bill Hewitt",
+        "From": "1969",
+        "To": "1975",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "August 8 1944",
+        "College": "University of Southern California"
+    },
+    {
+        "Player": "Jack Hewson",
+        "From": "1948",
+        "To": "1948",
+        "Pos": "F-C",
+        "Ht": "6-6",
+        "Wt": "195",
+        "Birth Date": "September 7 1924",
+        "College": "Temple University"
+    },
+    {
+        "Player": "Art Heyman",
+        "From": "1964",
+        "To": "1970",
+        "Pos": "F-G",
+        "Ht": "6-5",
+        "Wt": "205",
+        "Birth Date": "June 24 1941",
+        "College": "Duke University"
+    },
+    {
+        "Player": "Roy Hibbert",
+        "From": "2009",
+        "To": "2015",
+        "Pos": "C",
+        "Ht": "7-2",
+        "Wt": "278",
+        "Birth Date": "December 11 1986",
+        "College": "Georgetown University"
+    },
+    {
+        "Player": "Nat Hickey",
+        "From": "1948",
+        "To": "1948",
+        "Pos": "G-F",
+        "Ht": "5-11",
+        "Wt": "180",
+        "Birth Date": "January 30 1902",
+        "College": ""
+    },
+    {
+        "Player": "Phil Hicks",
+        "From": "1977",
+        "To": "1979",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "205",
+        "Birth Date": "January 31 1953",
+        "College": "Tulane University"
+    },
+    {
+        "Player": "J.J. Hickson",
+        "From": "2009",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "242",
+        "Birth Date": "September 4 1988",
+        "College": "North Carolina State University"
+    },
+    {
+        "Player": "Bill Higgins",
+        "From": "1975",
+        "To": "1975",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "180",
+        "Birth Date": "December 15 1952",
+        "College": "Ashland University"
+    },
+    {
+        "Player": "Cory Higgins",
+        "From": "2012",
+        "To": "2013",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "180",
+        "Birth Date": "June 14 1989",
+        "College": "University of Colorado"
+    },
+    {
+        "Player": "Earle Higgins",
+        "From": "1971",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "195",
+        "Birth Date": "December 30 1946",
+        "College": "Eastern Michigan University"
+    },
+    {
+        "Player": "Mike Higgins",
+        "From": "1990",
+        "To": "1991",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "220",
+        "Birth Date": "February 17 1967",
+        "College": "University of Northern Colorado"
+    },
+    {
+        "Player": "Rod Higgins",
+        "From": "1983",
+        "To": "1995",
+        "Pos": "F-C",
+        "Ht": "6-7",
+        "Wt": "200",
+        "Birth Date": "January 31 1960",
+        "College": "California State University Fresno"
+    },
+    {
+        "Player": "Sean Higgins",
+        "From": "1991",
+        "To": "1998",
+        "Pos": "G-F",
+        "Ht": "6-9",
+        "Wt": "205",
+        "Birth Date": "December 30 1968",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "Kenny Higgs",
+        "From": "1979",
+        "To": "1982",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "180",
+        "Birth Date": "January 31 1955",
+        "College": "Louisiana State University"
+    },
+    {
+        "Player": "Johnny High",
+        "From": "1980",
+        "To": "1984",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "April 25 1957",
+        "College": "University of Nevada Reno"
+    },
+    {
+        "Player": "Wayne Hightower",
+        "From": "1963",
+        "To": "1972",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "192",
+        "Birth Date": "January 14 1940",
+        "College": "University of Kansas"
+    },
+    {
+        "Player": "Nene Hilario",
+        "From": "2003",
+        "To": "2015",
+        "Pos": "F-C",
+        "Ht": "6-11",
+        "Wt": "260",
+        "Birth Date": "September 13 1982",
+        "College": ""
+    },
+    {
+        "Player": "Armond Hill",
+        "From": "1977",
+        "To": "1984",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "190",
+        "Birth Date": "March 31 1953",
+        "College": "Princeton University"
+    },
+    {
+        "Player": "Cleo Hill",
+        "From": "1962",
+        "To": "1962",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "185",
+        "Birth Date": "May 24 1938",
+        "College": "Winston-Salem State University"
+    },
+    {
+        "Player": "Gary Hill",
+        "From": "1964",
+        "To": "1965",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "October 7 1941",
+        "College": "Oklahoma City University"
+    },
+    {
+        "Player": "George Hill",
+        "From": "2009",
+        "To": "2014",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "180",
+        "Birth Date": "May 4 1986",
+        "College": "Indiana University-Purdue University Indianapolis"
+    },
+    {
+        "Player": "Grant Hill",
+        "From": "1995",
+        "To": "2013",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "225",
+        "Birth Date": "October 5 1972",
+        "College": "Duke University"
+    },
+    {
+        "Player": "Jordan Hill",
+        "From": "2010",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-10",
+        "Wt": "235",
+        "Birth Date": "July 27 1987",
+        "College": "University of Arizona"
+    },
+    {
+        "Player": "Simmie Hill",
+        "From": "1970",
+        "To": "1974",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "233",
+        "Birth Date": "November 14 1946",
+        "College": "West Texas A&M University"
+    },
+    {
+        "Player": "Solomon Hill",
+        "From": "2014",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "March 18 1991",
+        "College": "University of Arizona"
+    },
+    {
+        "Player": "Steven Hill",
+        "From": "2009",
+        "To": "2009",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "248",
+        "Birth Date": "November 14 1985",
+        "College": "University of Arkansas"
+    },
+    {
+        "Player": "Tyrone Hill",
+        "From": "1991",
+        "To": "2004",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "240",
+        "Birth Date": "March 19 1968",
+        "College": "Xavier University"
+    },
+    {
+        "Player": "Art Hillhouse",
+        "From": "1947",
+        "To": "1948",
+        "Pos": "C",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "June 12 1916",
+        "College": "Long Island University"
+    },
+    {
+        "Player": "Darnell Hillman",
+        "From": "1972",
+        "To": "1980",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "215",
+        "Birth Date": "August 29 1949",
+        "College": "San Jose State University"
+    },
+    {
+        "Player": "Fred Hilton",
+        "From": "1972",
+        "To": "1973",
+        "Pos": "G-F",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "January 15 1948",
+        "College": "Grambling State University"
+    },
+    {
+        "Player": "Kirk Hinrich",
+        "From": "2004",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "January 2 1981",
+        "College": "University of Kansas"
+    },
+    {
+        "Player": "Roy Hinson",
+        "From": "1984",
+        "To": "1991",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "210",
+        "Birth Date": "May 2 1961",
+        "College": "Rutgers University"
+    },
+    {
+        "Player": "Mel Hirsch",
+        "From": "1947",
+        "To": "1947",
+        "Pos": "G",
+        "Ht": "5-6",
+        "Wt": "165",
+        "Birth Date": "July 31 1921",
+        "College": "Brooklyn College"
+    },
+    {
+        "Player": "Lew Hitch",
+        "From": "1952",
+        "To": "1957",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "200",
+        "Birth Date": "July 16 1929",
+        "College": "Kansas State University"
+    },
+    {
+        "Player": "Robert Hite",
+        "From": "2007",
+        "To": "2007",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "184",
+        "Birth Date": "January 12 1984",
+        "College": "University of Miami"
+    },
+    {
+        "Player": "Darington Hobson",
+        "From": "2012",
+        "To": "2012",
+        "Pos": "G",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "September 29 1987",
+        "College": "University of New Mexico"
+    },
+    {
+        "Player": "Donald Hodge",
+        "From": "1992",
+        "To": "1996",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "230",
+        "Birth Date": "February 25 1969",
+        "College": "Temple University"
+    },
+    {
+        "Player": "Julius Hodge",
+        "From": "2006",
+        "To": "2007",
+        "Pos": "G",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "November 18 1983",
+        "College": "North Carolina State University"
+    },
+    {
+        "Player": "Craig Hodges",
+        "From": "1983",
+        "To": "1992",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "190",
+        "Birth Date": "June 27 1960",
+        "College": "California State University Long Beach"
+    },
+    {
+        "Player": "Charlie Hoefer",
+        "From": "1947",
+        "To": "1948",
+        "Pos": "G",
+        "Ht": "5-9",
+        "Wt": "158",
+        "Birth Date": "July 12 1917",
+        "College": "Queens College"
+    },
+    {
+        "Player": "Paul Hoffman",
+        "From": "1948",
+        "To": "1955",
+        "Pos": "G-F",
+        "Ht": "6-2",
+        "Wt": "195",
+        "Birth Date": "April 12 1925",
+        "College": "Purdue University"
+    },
+    {
+        "Player": "Bob Hogsett",
+        "From": "1967",
+        "To": "1968",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "230",
+        "Birth Date": "January 29 1941",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Paul Hogue",
+        "From": "1963",
+        "To": "1964",
+        "Pos": "C",
+        "Ht": "6-9",
+        "Wt": "240",
+        "Birth Date": "April 28 1940",
+        "College": "University of Cincinnati"
+    },
+    {
+        "Player": "Fred Hoiberg",
+        "From": "1996",
+        "To": "2005",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "203",
+        "Birth Date": "October 15 1972",
+        "College": "Iowa State University"
+    },
+    {
+        "Player": "Doug Holcomb",
+        "From": "1949",
+        "To": "1949",
+        "Pos": "F",
+        "Ht": "6-4",
+        "Wt": "200",
+        "Birth Date": "February 9 1925",
+        "College": "University of Wisconsin"
+    },
+    {
+        "Player": "Randy Holcomb",
+        "From": "2006",
+        "To": "2006",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "August 8 1979",
+        "College": "San Diego State University"
+    },
+    {
+        "Player": "Jrue Holiday",
+        "From": "2010",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "205",
+        "Birth Date": "June 12 1990",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Justin Holiday",
+        "From": "2013",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "185",
+        "Birth Date": "April 5 1989",
+        "College": "University of Washington"
+    },
+    {
+        "Player": "Brad Holland",
+        "From": "1980",
+        "To": "1982",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "180",
+        "Birth Date": "December 6 1956",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Joe Holland",
+        "From": "1950",
+        "To": "1952",
+        "Pos": "F",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "September 26 1925",
+        "College": "University of Kentucky"
+    },
+    {
+        "Player": "Wilbur Holland",
+        "From": "1976",
+        "To": "1979",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "175",
+        "Birth Date": "November 8 1951",
+        "College": "University of New Orleans"
+    },
+    {
+        "Player": "Lionel Hollins",
+        "From": "1976",
+        "To": "1985",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "October 19 1953",
+        "College": "Arizona State University"
+    },
+    {
+        "Player": "Ryan Hollins",
+        "From": "2007",
+        "To": "2015",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "230",
+        "Birth Date": "October 10 1984",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Essie Hollis",
+        "From": "1979",
+        "To": "1979",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "195",
+        "Birth Date": "May 16 1955",
+        "College": "St. Bonaventure University"
+    },
+    {
+        "Player": "Dennis Holman",
+        "From": "1968",
+        "To": "1968",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "175",
+        "Birth Date": "October 8 1945",
+        "College": "Southern Methodist University"
+    },
+    {
+        "Player": "Jim Holstein",
+        "From": "1953",
+        "To": "1956",
+        "Pos": "F-G",
+        "Ht": "6-3",
+        "Wt": "180",
+        "Birth Date": "September 24 1930",
+        "College": "University of Cincinnati"
+    },
+    {
+        "Player": "A.W. Holt",
+        "From": "1971",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "August 26 1946",
+        "College": "Jackson State University"
+    },
+    {
+        "Player": "Mike Holton",
+        "From": "1985",
+        "To": "1990",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "August 4 1961",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Dick Holub",
+        "From": "1948",
+        "To": "1948",
+        "Pos": "C",
+        "Ht": "6-6",
+        "Wt": "205",
+        "Birth Date": "October 29 1921",
+        "College": "Long Island University"
+    },
+    {
+        "Player": "Joe Holup",
+        "From": "1957",
+        "To": "1959",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "215",
+        "Birth Date": "February 26 1934",
+        "College": "George Washington University"
+    },
+    {
+        "Player": "Red Holzman*",
+        "From": "1949",
+        "To": "1954",
+        "Pos": "G",
+        "Ht": "5-10",
+        "Wt": "175",
+        "Birth Date": "August 10 1920",
+        "College": "City College of New York"
+    },
+    {
+        "Player": "Jerald Honeycutt",
+        "From": "1998",
+        "To": "1999",
+        "Pos": "F-G",
+        "Ht": "6-9",
+        "Wt": "245",
+        "Birth Date": "October 20 1974",
+        "College": "Tulane University"
+    },
+    {
+        "Player": "Tyler Honeycutt",
+        "From": "2012",
+        "To": "2013",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "188",
+        "Birth Date": "July 15 1990",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Derek Hood",
+        "From": "2000",
+        "To": "2000",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "222",
+        "Birth Date": "December 22 1976",
+        "College": "University of Arkansas"
+    },
+    {
+        "Player": "Rodney Hood",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "G-F",
+        "Ht": "6-8",
+        "Wt": "215",
+        "Birth Date": "October 20 1992",
+        "College": "Duke University"
+    },
+    {
+        "Player": "Bobby Hooper",
+        "From": "1969",
+        "To": "1969",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "180",
+        "Birth Date": "December 22 1946",
+        "College": "University of Dayton"
+    },
+    {
+        "Player": "Carroll Hooser",
+        "From": "1968",
+        "To": "1968",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "230",
+        "Birth Date": "March 5 1944",
+        "College": "Southern Methodist University"
+    },
+    {
+        "Player": "Tom Hoover",
+        "From": "1964",
+        "To": "1969",
+        "Pos": "C",
+        "Ht": "6-9",
+        "Wt": "230",
+        "Birth Date": "January 23 1941",
+        "College": "Villanova University"
+    },
+    {
+        "Player": "Bob Hopkins",
+        "From": "1957",
+        "To": "1960",
+        "Pos": "C-F",
+        "Ht": "6-8",
+        "Wt": "205",
+        "Birth Date": "November 3 1934",
+        "College": "Grambling State University"
+    },
+    {
+        "Player": "Dave Hoppen",
+        "From": "1988",
+        "To": "1993",
+        "Pos": "C-F",
+        "Ht": "6-11",
+        "Wt": "235",
+        "Birth Date": "March 13 1964",
+        "College": "University of Nebraska"
+    },
+    {
+        "Player": "Dennis Hopson",
+        "From": "1988",
+        "To": "1992",
+        "Pos": "G-F",
+        "Ht": "6-5",
+        "Wt": "200",
+        "Birth Date": "April 22 1965",
+        "College": "Ohio State University"
+    },
+    {
+        "Player": "Scotty Hopson",
+        "From": "2014",
+        "To": "2014",
+        "Pos": "G",
+        "Ht": "6-7",
+        "Wt": "204",
+        "Birth Date": "August 8 1989",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Johnny Horan",
+        "From": "1956",
+        "To": "1956",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "190",
+        "Birth Date": "November 24 1932",
+        "College": "University of Dayton"
+    },
+    {
+        "Player": "Cedrick Hordges",
+        "From": "1981",
+        "To": "1982",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "220",
+        "Birth Date": "January 8 1957",
+        "College": "University of South Carolina"
+    },
+    {
+        "Player": "Al Horford",
+        "From": "2008",
+        "To": "2015",
+        "Pos": "C",
+        "Ht": "6-10",
+        "Wt": "245",
+        "Birth Date": "June 3 1986",
+        "College": "University of Florida"
+    },
+    {
+        "Player": "Tito Horford",
+        "From": "1989",
+        "To": "1994",
+        "Pos": "C",
+        "Ht": "7-1",
+        "Wt": "245",
+        "Birth Date": "January 19 1966",
+        "College": "University of Miami"
+    },
+    {
+        "Player": "Ron Horn",
+        "From": "1962",
+        "To": "1968",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "May 24 1938",
+        "College": "Indiana University"
+    },
+    {
+        "Player": "Jeff Hornacek",
+        "From": "1987",
+        "To": "2000",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "May 3 1963",
+        "College": "Iowa State University"
+    },
+    {
+        "Player": "Dennis Horner",
+        "From": "2012",
+        "To": "2012",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "230",
+        "Birth Date": "February 5 1988",
+        "College": "North Carolina State University"
+    },
+    {
+        "Player": "Robert Horry",
+        "From": "1993",
+        "To": "2008",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "220",
+        "Birth Date": "August 25 1970",
+        "College": "University of Alabama"
+    },
+    {
+        "Player": "Ed Horton",
+        "From": "1990",
+        "To": "1990",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "230",
+        "Birth Date": "December 17 1967",
+        "College": "University of Iowa"
+    },
+    {
+        "Player": "Bill Hosket",
+        "From": "1969",
+        "To": "1972",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "225",
+        "Birth Date": "December 20 1946",
+        "College": "Ohio State University"
+    },
+    {
+        "Player": "Bob Houbregs*",
+        "From": "1954",
+        "To": "1958",
+        "Pos": "C-F",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "March 12 1932",
+        "College": "University of Washington"
+    },
+    {
+        "Player": "Eddie House",
+        "From": "2001",
+        "To": "2011",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "180",
+        "Birth Date": "May 14 1978",
+        "College": "Arizona State University"
+    },
+    {
+        "Player": "Allan Houston",
+        "From": "1994",
+        "To": "2005",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "200",
+        "Birth Date": "April 20 1971",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Byron Houston",
+        "From": "1993",
+        "To": "1996",
+        "Pos": "F",
+        "Ht": "6-5",
+        "Wt": "250",
+        "Birth Date": "November 22 1969",
+        "College": "Oklahoma State University"
+    },
+    {
+        "Player": "Tom Hovasse",
+        "From": "1995",
+        "To": "1995",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "205",
+        "Birth Date": "January 31 1967",
+        "College": "Pennsylvania State University"
+    },
+    {
+        "Player": "Brian Howard",
+        "From": "1992",
+        "To": "1993",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "204",
+        "Birth Date": "October 19 1967",
+        "College": "North Carolina State University"
+    },
+    {
+        "Player": "Dwight Howard",
+        "From": "2005",
+        "To": "2015",
+        "Pos": "C-F",
+        "Ht": "6-11",
+        "Wt": "240",
+        "Birth Date": "December 8 1985",
+        "College": ""
+    },
+    {
+        "Player": "Greg Howard",
+        "From": "1971",
+        "To": "1972",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "215",
+        "Birth Date": "January 8 1948",
+        "College": "University of New Mexico"
+    },
+    {
+        "Player": "Josh Howard",
+        "From": "2004",
+        "To": "2013",
+        "Pos": "F-G",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "April 28 1980",
+        "College": "Wake Forest University"
+    },
+    {
+        "Player": "Juwan Howard",
+        "From": "1995",
+        "To": "2013",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "240",
+        "Birth Date": "February 7 1973",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "Mo Howard",
+        "From": "1977",
+        "To": "1977",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "170",
+        "Birth Date": "August 25 1954",
+        "College": "University of Maryland"
+    },
+    {
+        "Player": "Otis Howard",
+        "From": "1979",
+        "To": "1979",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "November 5 1956",
+        "College": "Austin Peay State University"
+    },
+    {
+        "Player": "Stephen Howard",
+        "From": "1993",
+        "To": "1998",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "July 15 1970",
+        "College": "DePaul University"
+    },
+    {
+        "Player": "Bailey Howell*",
+        "From": "1960",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "January 20 1937",
+        "College": "Mississippi State University"
+    },
+    {
+        "Player": "Bob Hubbard",
+        "From": "1948",
+        "To": "1949",
+        "Pos": "C-F",
+        "Ht": "6-6",
+        "Wt": "215",
+        "Birth Date": "December 27 1922",
+        "College": "Springfield College"
+    },
+    {
+        "Player": "Phil Hubbard",
+        "From": "1980",
+        "To": "1989",
+        "Pos": "F-C",
+        "Ht": "6-8",
+        "Wt": "215",
+        "Birth Date": "December 13 1956",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "Lester Hudson",
+        "From": "2010",
+        "To": "2012",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "August 7 1984",
+        "College": "University of Tennessee at Martin"
+    },
+    {
+        "Player": "Lou Hudson",
+        "From": "1967",
+        "To": "1979",
+        "Pos": "F-G",
+        "Ht": "6-5",
+        "Wt": "210",
+        "Birth Date": "July 11 1944",
+        "College": "University of Minnesota"
+    },
+    {
+        "Player": "Troy Hudson",
+        "From": "1998",
+        "To": "2008",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "170",
+        "Birth Date": "March 13 1976",
+        "College": "Southern Illinois University"
+    },
+    {
+        "Player": "Nate Huffman",
+        "From": "2003",
+        "To": "2003",
+        "Pos": "C",
+        "Ht": "7-1",
+        "Wt": "245",
+        "Birth Date": "April 2 1975",
+        "College": "Central Michigan University"
+    },
+    {
+        "Player": "Alfredrick Hughes",
+        "From": "1986",
+        "To": "1986",
+        "Pos": "F-G",
+        "Ht": "6-5",
+        "Wt": "215",
+        "Birth Date": "July 19 1962",
+        "College": "Loyola University of Chicago"
+    },
+    {
+        "Player": "Eddie Hughes",
+        "From": "1988",
+        "To": "1990",
+        "Pos": "G",
+        "Ht": "5-10",
+        "Wt": "165",
+        "Birth Date": "May 26 1960",
+        "College": "Colorado State University"
+    },
+    {
+        "Player": "Kim Hughes",
+        "From": "1976",
+        "To": "1981",
+        "Pos": "C",
+        "Ht": "6-11",
+        "Wt": "220",
+        "Birth Date": "June 4 1952",
+        "College": "University of Wisconsin"
+    },
+    {
+        "Player": "Larry Hughes",
+        "From": "1999",
+        "To": "2012",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "184",
+        "Birth Date": "January 23 1979",
+        "College": "Saint Louis University"
+    },
+    {
+        "Player": "Rick Hughes",
+        "From": "2000",
+        "To": "2000",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "235",
+        "Birth Date": "August 22 1973",
+        "College": "Thomas More College"
+    },
+    {
+        "Player": "Robbie Hummel",
+        "From": "2014",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "215",
+        "Birth Date": "March 8 1989",
+        "College": "Purdue University"
+    },
+    {
+        "Player": "John Hummer",
+        "From": "1971",
+        "To": "1976",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "230",
+        "Birth Date": "May 4 1948",
+        "College": "Princeton University"
+    },
+    {
+        "Player": "Ryan Humphrey",
+        "From": "2003",
+        "To": "2005",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "235",
+        "Birth Date": "July 24 1979",
+        "College": "University of Notre Dame"
+    },
+    {
+        "Player": "Jay Humphries",
+        "From": "1985",
+        "To": "1995",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "October 17 1962",
+        "College": "University of Colorado"
+    },
+    {
+        "Player": "Kris Humphries",
+        "From": "2005",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "235",
+        "Birth Date": "February 6 1985",
+        "College": "University of Minnesota"
+    },
+    {
+        "Player": "Hot Rod Hundley",
+        "From": "1958",
+        "To": "1963",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "October 26 1934",
+        "College": "West Virginia University"
+    },
+    {
+        "Player": "Brandon Hunter",
+        "From": "2004",
+        "To": "2005",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "260",
+        "Birth Date": "November 24 1980",
+        "College": "Ohio University"
+    },
+    {
+        "Player": "Cedric Hunter",
+        "From": "1992",
+        "To": "1992",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "180",
+        "Birth Date": "January 16 1965",
+        "College": "University of Kansas"
+    },
+    {
+        "Player": "Chris Hunter",
+        "From": "2010",
+        "To": "2010",
+        "Pos": "F",
+        "Ht": "6-11",
+        "Wt": "240",
+        "Birth Date": "July 7 1984",
+        "College": "University of Michigan"
+    },
+    {
+        "Player": "Les Hunter",
+        "From": "1965",
+        "To": "1973",
+        "Pos": "F-C",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "August 16 1942",
+        "College": "Loyola University of Chicago"
+    },
+    {
+        "Player": "Lindsey Hunter",
+        "From": "1994",
+        "To": "2010",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "170",
+        "Birth Date": "December 3 1970",
+        "College": "Jackson State University"
+    },
+    {
+        "Player": "Othello Hunter",
+        "From": "2009",
+        "To": "2010",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "225",
+        "Birth Date": "May 28 1986",
+        "College": "Ohio State University"
+    },
+    {
+        "Player": "Steven Hunter",
+        "From": "2002",
+        "To": "2010",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "220",
+        "Birth Date": "October 31 1981",
+        "College": "DePaul University"
+    },
+    {
+        "Player": "Bobby Hurley",
+        "From": "1994",
+        "To": "1998",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "165",
+        "Birth Date": "June 28 1971",
+        "College": "Duke University"
+    },
+    {
+        "Player": "Roy Hurley",
+        "From": "1947",
+        "To": "1947",
+        "Pos": "F-G",
+        "Ht": "6-2",
+        "Wt": "170",
+        "Birth Date": "August 12 1922",
+        "College": "Murray State University"
+    },
+    {
+        "Player": "Geoff Huston",
+        "From": "1980",
+        "To": "1987",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "175",
+        "Birth Date": "November 8 1957",
+        "College": "Texas Tech University"
+    },
+    {
+        "Player": "Paul Huston",
+        "From": "1948",
+        "To": "1948",
+        "Pos": "F",
+        "Ht": "6-3",
+        "Wt": "175",
+        "Birth Date": "June 2 1925",
+        "College": "Ohio State University"
+    },
+    {
+        "Player": "Mel Hutchins",
+        "From": "1952",
+        "To": "1958",
+        "Pos": "F-C",
+        "Ht": "6-6",
+        "Wt": "200",
+        "Birth Date": "November 22 1928",
+        "College": "Brigham Young University"
+    },
+    {
+        "Player": "Joe Hutton",
+        "From": "1951",
+        "To": "1952",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "170",
+        "Birth Date": "October 6 1928",
+        "College": "Hamline University"
+    },
+    {
+        "Player": "Greg Hyder",
+        "From": "1971",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "215",
+        "Birth Date": "June 21 1948",
+        "College": "Eastern New Mexico University"
+    }
+]

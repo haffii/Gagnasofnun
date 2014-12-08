@@ -72,3 +72,30 @@ var options = {'title':'Field goal percentage',
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 chart.draw(data, options);
 }
+
+function drawheight()
+{
+	chartType = 2;
+	if(to == 0){
+		to = database.length;
+	}
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'height');
+	
+	for(var i = from; i<to;i++)
+	{
+
+		data.addRows([
+			[String(1950+i),avgHeight[i]]
+			]);
+
+	}
+// Set chart options
+var options = {'title':'Average height in cm',
+'width':800,
+'height':500};
+
+var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+chart.draw(data, options);
+}

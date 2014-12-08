@@ -1,0 +1,962 @@
+[
+    {
+        "Player": "Ledell Eackles",
+        "From": "1989",
+        "To": "1998",
+        "Pos": "G-F",
+        "Ht": "6-5",
+        "Wt": "220",
+        "Birth Date": "November 24 1966",
+        "College": "University of New Orleans"
+    },
+    {
+        "Player": "Jim Eakins",
+        "From": "1969",
+        "To": "1978",
+        "Pos": "C",
+        "Ht": "6-11",
+        "Wt": "215",
+        "Birth Date": "May 24 1946",
+        "College": "Brigham Young University"
+    },
+    {
+        "Player": "Acie Earl",
+        "From": "1994",
+        "To": "1997",
+        "Pos": "F-C",
+        "Ht": "6-10",
+        "Wt": "240",
+        "Birth Date": "June 23 1970",
+        "College": "University of Iowa"
+    },
+    {
+        "Player": "Ed Earle",
+        "From": "1954",
+        "To": "1954",
+        "Pos": "F",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "April 28 1927",
+        "College": "Loyola University of Chicago"
+    },
+    {
+        "Player": "Cleanthony Early",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "219",
+        "Birth Date": "April 17 1991",
+        "College": "Wichita State University"
+    },
+    {
+        "Player": "Penny Early",
+        "From": "1969",
+        "To": "1969",
+        "Pos": "G",
+        "Ht": "5-3",
+        "Wt": "114",
+        "Birth Date": "May 30 1943",
+        "College": ""
+    },
+    {
+        "Player": "Mark Eaton",
+        "From": "1983",
+        "To": "1993",
+        "Pos": "C",
+        "Ht": "7-4",
+        "Wt": "275",
+        "Birth Date": "January 24 1957",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Jerry Eaves",
+        "From": "1983",
+        "To": "1987",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "180",
+        "Birth Date": "February 8 1959",
+        "College": "University of Louisville"
+    },
+    {
+        "Player": "Devin Ebanks",
+        "From": "2011",
+        "To": "2013",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "215",
+        "Birth Date": "October 28 1989",
+        "College": "West Virginia University"
+    },
+    {
+        "Player": "Bill Ebben",
+        "From": "1958",
+        "To": "1958",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "190",
+        "Birth Date": "October 7 1935",
+        "College": "University of Detroit Mercy"
+    },
+    {
+        "Player": "Al Eberhard",
+        "From": "1975",
+        "To": "1978",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "225",
+        "Birth Date": "May 10 1952",
+        "College": "University of Missouri"
+    },
+    {
+        "Player": "Ndudi Ebi",
+        "From": "2004",
+        "To": "2005",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "200",
+        "Birth Date": "June 18 1984",
+        "College": ""
+    },
+    {
+        "Player": "Roy Ebron",
+        "From": "1974",
+        "To": "1974",
+        "Pos": "C",
+        "Ht": "6-9",
+        "Wt": "220",
+        "Birth Date": "August 31 1951",
+        "College": "University of Louisiana at Lafayette"
+    },
+    {
+        "Player": "Patrick Eddie",
+        "From": "1992",
+        "To": "1992",
+        "Pos": "C",
+        "Ht": "6-11",
+        "Wt": "240",
+        "Birth Date": "December 27 1967",
+        "College": "University of Mississippi"
+    },
+    {
+        "Player": "Dike Eddleman",
+        "From": "1950",
+        "To": "1953",
+        "Pos": "F-G",
+        "Ht": "6-3",
+        "Wt": "189",
+        "Birth Date": "December 27 1922",
+        "College": "University of Illinois at Urbana-Champaign"
+    },
+    {
+        "Player": "Kenton Edelin",
+        "From": "1985",
+        "To": "1985",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "205",
+        "Birth Date": "May 24 1962",
+        "College": "University of Virginia"
+    },
+    {
+        "Player": "Charles Edge",
+        "From": "1974",
+        "To": "1975",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "210",
+        "Birth Date": "February 23 1950",
+        "College": "LeMoyne-Owen College"
+    },
+    {
+        "Player": "Bobby Edmonds",
+        "From": "1968",
+        "To": "1970",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "220",
+        "Birth Date": "March 8 1941",
+        "College": "Tennessee State University"
+    },
+    {
+        "Player": "Keith Edmonson",
+        "From": "1983",
+        "To": "1984",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "195",
+        "Birth Date": "September 28 1960",
+        "College": "Purdue University"
+    },
+    {
+        "Player": "Tyus Edney",
+        "From": "1996",
+        "To": "2001",
+        "Pos": "G",
+        "Ht": "5-10",
+        "Wt": "152",
+        "Birth Date": "February 14 1973",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Bill Edwards",
+        "From": "1994",
+        "To": "1994",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "215",
+        "Birth Date": "September 22 1971",
+        "College": "Wright State University"
+    },
+    {
+        "Player": "Blue Edwards",
+        "From": "1990",
+        "To": "1999",
+        "Pos": "G-F",
+        "Ht": "6-4",
+        "Wt": "200",
+        "Birth Date": "October 31 1965",
+        "College": "East Carolina University"
+    },
+    {
+        "Player": "Corsley Edwards",
+        "From": "2005",
+        "To": "2005",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "275",
+        "Birth Date": "March 5 1979",
+        "College": "Central Connecticut State University"
+    },
+    {
+        "Player": "Doug Edwards",
+        "From": "1994",
+        "To": "1996",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "January 21 1971",
+        "College": "Florida State University"
+    },
+    {
+        "Player": "Franklin Edwards",
+        "From": "1982",
+        "To": "1988",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "170",
+        "Birth Date": "February 2 1959",
+        "College": "Cleveland State University"
+    },
+    {
+        "Player": "James Edwards",
+        "From": "1978",
+        "To": "1996",
+        "Pos": "C-F",
+        "Ht": "7-0",
+        "Wt": "225",
+        "Birth Date": "November 22 1955",
+        "College": "University of Washington"
+    },
+    {
+        "Player": "Jay Edwards",
+        "From": "1990",
+        "To": "1990",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "January 3 1969",
+        "College": "Indiana University"
+    },
+    {
+        "Player": "John Edwards",
+        "From": "2005",
+        "To": "2006",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "275",
+        "Birth Date": "July 31 1981",
+        "College": "Kent State University"
+    },
+    {
+        "Player": "Kevin Edwards",
+        "From": "1989",
+        "To": "2001",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "190",
+        "Birth Date": "October 30 1965",
+        "College": "DePaul University"
+    },
+    {
+        "Player": "Shane Edwards",
+        "From": "2014",
+        "To": "2014",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "220",
+        "Birth Date": "May 31 1987",
+        "College": "University of Arkansas at Little Rock"
+    },
+    {
+        "Player": "Johnny Egan",
+        "From": "1962",
+        "To": "1972",
+        "Pos": "G",
+        "Ht": "5-11",
+        "Wt": "180",
+        "Birth Date": "January 31 1939",
+        "College": "Providence College"
+    },
+    {
+        "Player": "Lonnie Eggleston",
+        "From": "1949",
+        "To": "1949",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "170",
+        "Birth Date": "June 8 1918",
+        "College": "Oklahoma State University"
+    },
+    {
+        "Player": "Bulbs Ehlers",
+        "From": "1948",
+        "To": "1949",
+        "Pos": "F-G",
+        "Ht": "6-3",
+        "Wt": "198",
+        "Birth Date": "March 10 1923",
+        "College": "Purdue University"
+    },
+    {
+        "Player": "Craig Ehlo",
+        "From": "1984",
+        "To": "1997",
+        "Pos": "G-F",
+        "Ht": "6-6",
+        "Wt": "180",
+        "Birth Date": "August 11 1961",
+        "College": "Washington State University"
+    },
+    {
+        "Player": "Rich Eichhorst",
+        "From": "1962",
+        "To": "1962",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "200",
+        "Birth Date": "October 21 1933",
+        "College": "Southeast Missouri State University"
+    },
+    {
+        "Player": "Howard Eisley",
+        "From": "1995",
+        "To": "2006",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "177",
+        "Birth Date": "December 4 1972",
+        "College": "Boston College"
+    },
+    {
+        "Player": "Obinna Ekezie",
+        "From": "2000",
+        "To": "2005",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "270",
+        "Birth Date": "August 22 1975",
+        "College": "University of Maryland"
+    },
+    {
+        "Player": "Khalid El-Amin",
+        "From": "2001",
+        "To": "2001",
+        "Pos": "G",
+        "Ht": "5-10",
+        "Wt": "200",
+        "Birth Date": "April 25 1979",
+        "College": "University of Connecticut"
+    },
+    {
+        "Player": "Don Eliason",
+        "From": "1947",
+        "To": "1947",
+        "Pos": "F",
+        "Ht": "6-2",
+        "Wt": "210",
+        "Birth Date": "July 24 1918",
+        "College": "Hamline University"
+    },
+    {
+        "Player": "Mario Elie",
+        "From": "1991",
+        "To": "2001",
+        "Pos": "G-F",
+        "Ht": "6-5",
+        "Wt": "210",
+        "Birth Date": "November 26 1963",
+        "College": "American International College"
+    },
+    {
+        "Player": "Ray Ellefson",
+        "From": "1949",
+        "To": "1951",
+        "Pos": "C",
+        "Ht": "6-8",
+        "Wt": "230",
+        "Birth Date": "November 18 1922",
+        "College": "West Texas A&M University"
+    },
+    {
+        "Player": "Wayne Ellington",
+        "From": "2010",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "200",
+        "Birth Date": "October 29 1987",
+        "College": "University of North Carolina"
+    },
+    {
+        "Player": "Bob Elliott",
+        "From": "1979",
+        "To": "1981",
+        "Pos": "C-F",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "August 18 1955",
+        "College": "University of Arizona"
+    },
+    {
+        "Player": "Sean Elliott",
+        "From": "1990",
+        "To": "2001",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "205",
+        "Birth Date": "February 2 1968",
+        "College": "University of Arizona"
+    },
+    {
+        "Player": "Bo Ellis",
+        "From": "1978",
+        "To": "1980",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "197",
+        "Birth Date": "August 8 1954",
+        "College": "Marquette University"
+    },
+    {
+        "Player": "Boo Ellis",
+        "From": "1959",
+        "To": "1960",
+        "Pos": "F",
+        "Ht": "6-5",
+        "Wt": "185",
+        "Birth Date": "February 11 1936",
+        "College": "Niagara University"
+    },
+    {
+        "Player": "Dale Ellis",
+        "From": "1984",
+        "To": "2000",
+        "Pos": "G-F",
+        "Ht": "6-7",
+        "Wt": "205",
+        "Birth Date": "August 6 1960",
+        "College": "University of Tennessee"
+    },
+    {
+        "Player": "Harold Ellis",
+        "From": "1994",
+        "To": "1998",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "200",
+        "Birth Date": "October 7 1970",
+        "College": "Morehouse College"
+    },
+    {
+        "Player": "Joe Ellis",
+        "From": "1967",
+        "To": "1974",
+        "Pos": "F-G",
+        "Ht": "6-6",
+        "Wt": "175",
+        "Birth Date": "May 3 1944",
+        "College": "University of San Francisco"
+    },
+    {
+        "Player": "LaPhonso Ellis",
+        "From": "1993",
+        "To": "2003",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "240",
+        "Birth Date": "May 5 1970",
+        "College": "University of Notre Dame"
+    },
+    {
+        "Player": "LeRon Ellis",
+        "From": "1992",
+        "To": "1996",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "225",
+        "Birth Date": "April 28 1969",
+        "College": "Syracuse University"
+    },
+    {
+        "Player": "Leroy Ellis",
+        "From": "1963",
+        "To": "1976",
+        "Pos": "C-F",
+        "Ht": "6-10",
+        "Wt": "210",
+        "Birth Date": "March 10 1940",
+        "College": "St. John's University"
+    },
+    {
+        "Player": "Monta Ellis",
+        "From": "2006",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "175",
+        "Birth Date": "October 26 1985",
+        "College": ""
+    },
+    {
+        "Player": "Pervis Ellison",
+        "From": "1990",
+        "To": "2001",
+        "Pos": "F-C",
+        "Ht": "6-9",
+        "Wt": "210",
+        "Birth Date": "April 3 1967",
+        "College": "University of Louisville"
+    },
+    {
+        "Player": "Len Elmore",
+        "From": "1975",
+        "To": "1984",
+        "Pos": "C-F",
+        "Ht": "6-9",
+        "Wt": "220",
+        "Birth Date": "March 28 1952",
+        "College": "University of Maryland"
+    },
+    {
+        "Player": "Francisco Elson",
+        "From": "2004",
+        "To": "2012",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "235",
+        "Birth Date": "February 28 1976",
+        "College": "University of California"
+    },
+    {
+        "Player": "Darrell Elston",
+        "From": "1975",
+        "To": "1977",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "190",
+        "Birth Date": "August 15 1952",
+        "College": "University of North Carolina"
+    },
+    {
+        "Player": "Melvin Ely",
+        "From": "2003",
+        "To": "2014",
+        "Pos": "C",
+        "Ht": "6-10",
+        "Wt": "260",
+        "Birth Date": "May 2 1978",
+        "College": "California State University Fresno"
+    },
+    {
+        "Player": "Wayne Embry*",
+        "From": "1959",
+        "To": "1969",
+        "Pos": "C-F",
+        "Ht": "6-8",
+        "Wt": "240",
+        "Birth Date": "March 26 1937",
+        "College": "Miami University"
+    },
+    {
+        "Player": "Andre Emmett",
+        "From": "2005",
+        "To": "2012",
+        "Pos": "F",
+        "Ht": "6-5",
+        "Wt": "230",
+        "Birth Date": "August 27 1982",
+        "College": "Texas Tech University"
+    },
+    {
+        "Player": "Ned Endress",
+        "From": "1947",
+        "To": "1947",
+        "Pos": "F-G",
+        "Ht": "6-2",
+        "Wt": "200",
+        "Birth Date": "March 2 1918",
+        "College": "University of Akron"
+    },
+    {
+        "Player": "Chris Engler",
+        "From": "1983",
+        "To": "1988",
+        "Pos": "C",
+        "Ht": "6-11",
+        "Wt": "245",
+        "Birth Date": "March 1 1959",
+        "College": "University of Wyoming"
+    },
+    {
+        "Player": "Wayne Englestad",
+        "From": "1989",
+        "To": "1989",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "245",
+        "Birth Date": "December 6 1966",
+        "College": "University of California Irvine"
+    },
+    {
+        "Player": "A.J. English",
+        "From": "1991",
+        "To": "1992",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "175",
+        "Birth Date": "July 11 1967",
+        "College": "Virginia Union University"
+    },
+    {
+        "Player": "Alex English*",
+        "From": "1977",
+        "To": "1991",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "190",
+        "Birth Date": "January 5 1954",
+        "College": "University of South Carolina"
+    },
+    {
+        "Player": "Claude English",
+        "From": "1971",
+        "To": "1971",
+        "Pos": "F",
+        "Ht": "6-4",
+        "Wt": "185",
+        "Birth Date": "December 26 1946",
+        "College": "University of Rhode Island"
+    },
+    {
+        "Player": "Jo Jo English",
+        "From": "1993",
+        "To": "1995",
+        "Pos": "G",
+        "Ht": "6-4",
+        "Wt": "195",
+        "Birth Date": "February 4 1970",
+        "College": "University of South Carolina"
+    },
+    {
+        "Player": "Kim English",
+        "From": "2013",
+        "To": "2013",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "200",
+        "Birth Date": "September 24 1988",
+        "College": "University of Missouri"
+    },
+    {
+        "Player": "Scott English",
+        "From": "1973",
+        "To": "1975",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "205",
+        "Birth Date": "October 20 1950",
+        "College": "University of Texas at El Paso"
+    },
+    {
+        "Player": "Gene Englund",
+        "From": "1950",
+        "To": "1950",
+        "Pos": "F-C",
+        "Ht": "6-5",
+        "Wt": "205",
+        "Birth Date": "October 21 1917",
+        "College": "University of Wisconsin"
+    },
+    {
+        "Player": "James Ennis",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-7",
+        "Wt": "210",
+        "Birth Date": "July 1 1990",
+        "College": "California State University Long Beach"
+    },
+    {
+        "Player": "Tyler Ennis",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "180",
+        "Birth Date": "August 24 1994",
+        "College": "Syracuse University"
+    },
+    {
+        "Player": "Ray Epps",
+        "From": "1979",
+        "To": "1979",
+        "Pos": "F",
+        "Ht": "6-6",
+        "Wt": "195",
+        "Birth Date": "August 20 1956",
+        "College": "Norfolk State University"
+    },
+    {
+        "Player": "Semih Erden",
+        "From": "2011",
+        "To": "2012",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "240",
+        "Birth Date": "July 28 1986",
+        "College": ""
+    },
+    {
+        "Player": "Bo Erias",
+        "From": "1958",
+        "To": "1958",
+        "Pos": "F",
+        "Ht": "6-3",
+        "Wt": "220",
+        "Birth Date": "July 30 1932",
+        "College": "Niagara University"
+    },
+    {
+        "Player": "Keith Erickson",
+        "From": "1966",
+        "To": "1977",
+        "Pos": "F-G",
+        "Ht": "6-5",
+        "Wt": "195",
+        "Birth Date": "April 19 1944",
+        "College": "University of California Los Angeles"
+    },
+    {
+        "Player": "Julius Erving*",
+        "From": "1972",
+        "To": "1987",
+        "Pos": "F-G",
+        "Ht": "6-6",
+        "Wt": "200",
+        "Birth Date": "February 22 1950",
+        "College": "University of Massachusetts Amherst"
+    },
+    {
+        "Player": "Evan Eschmeyer",
+        "From": "2000",
+        "To": "2003",
+        "Pos": "C",
+        "Ht": "6-11",
+        "Wt": "255",
+        "Birth Date": "May 30 1975",
+        "College": "Northwestern University"
+    },
+    {
+        "Player": "Jack Eskridge",
+        "From": "1949",
+        "To": "1949",
+        "Pos": "C-F",
+        "Ht": "6-5",
+        "Wt": "200",
+        "Birth Date": "January 21 1924",
+        "College": "University of Kansas"
+    },
+    {
+        "Player": "Vincenzo Esposito",
+        "From": "1996",
+        "To": "1996",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "198",
+        "Birth Date": "January 3 1969",
+        "College": ""
+    },
+    {
+        "Player": "Billy Evans",
+        "From": "1970",
+        "To": "1970",
+        "Pos": "G",
+        "Ht": "6-0",
+        "Wt": "170",
+        "Birth Date": "March 3 1947",
+        "College": "Boston College"
+    },
+    {
+        "Player": "Bob Evans",
+        "From": "1950",
+        "To": "1950",
+        "Pos": "G",
+        "Ht": "6-2",
+        "Wt": "175",
+        "Birth Date": "May 31 1925",
+        "College": "Butler University"
+    },
+    {
+        "Player": "Brian Evans",
+        "From": "1997",
+        "To": "1999",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "220",
+        "Birth Date": "September 13 1973",
+        "College": "Indiana University"
+    },
+    {
+        "Player": "Earl Evans",
+        "From": "1980",
+        "To": "1980",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "202",
+        "Birth Date": "November 11 1955",
+        "College": "University of Nevada Las Vegas"
+    },
+    {
+        "Player": "Jeremy Evans",
+        "From": "2011",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-9",
+        "Wt": "196",
+        "Birth Date": "October 24 1987",
+        "College": "Western Kentucky University"
+    },
+    {
+        "Player": "Maurice Evans",
+        "From": "2002",
+        "To": "2012",
+        "Pos": "G",
+        "Ht": "6-5",
+        "Wt": "220",
+        "Birth Date": "November 8 1978",
+        "College": "University of Texas at Austin"
+    },
+    {
+        "Player": "Mike Evans",
+        "From": "1980",
+        "To": "1988",
+        "Pos": "G",
+        "Ht": "6-1",
+        "Wt": "170",
+        "Birth Date": "April 19 1955",
+        "College": "Kansas State University"
+    },
+    {
+        "Player": "Reggie Evans",
+        "From": "2003",
+        "To": "2015",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "245",
+        "Birth Date": "May 18 1980",
+        "College": "University of Iowa"
+    },
+    {
+        "Player": "Tyreke Evans",
+        "From": "2010",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "220",
+        "Birth Date": "September 19 1989",
+        "College": "University of Memphis"
+    },
+    {
+        "Player": "Daniel Ewing",
+        "From": "2006",
+        "To": "2007",
+        "Pos": "G",
+        "Ht": "6-3",
+        "Wt": "185",
+        "Birth Date": "March 26 1983",
+        "College": "Duke University"
+    },
+    {
+        "Player": "Patrick Ewing*",
+        "From": "1986",
+        "To": "2002",
+        "Pos": "C-F",
+        "Ht": "7-0",
+        "Wt": "240",
+        "Birth Date": "August 5 1962",
+        "College": "Georgetown University"
+    },
+    {
+        "Player": "Patrick Ewing",
+        "From": "2011",
+        "To": "2011",
+        "Pos": "F",
+        "Ht": "6-8",
+        "Wt": "235",
+        "Birth Date": "May 20 1984",
+        "College": "Georgetown University"
+    },
+    {
+        "Player": "Dante Exum",
+        "From": "2015",
+        "To": "2015",
+        "Pos": "G",
+        "Ht": "6-6",
+        "Wt": "190",
+        "Birth Date": "July 13 1995",
+        "College": ""
+    },
+    {
+        "Player": "Christian Eyenga",
+        "From": "2011",
+        "To": "2012",
+        "Pos": "F",
+        "Ht": "6-5",
+        "Wt": "210",
+        "Birth Date": "June 22 1989",
+        "College": ""
+    },
+    {
+        "Player": "Festus Ezeli",
+        "From": "2013",
+        "To": "2015",
+        "Pos": "C",
+        "Ht": "6-11",
+        "Wt": "255",
+        "Birth Date": "October 21 1989",
+        "College": "Vanderbilt University"
+    },
+    {
+        "Player": "Johnny Ezersky",
+        "From": "1948",
+        "To": "1950",
+        "Pos": "F-G",
+        "Ht": "6-3",
+        "Wt": "175",
+        "Birth Date": "",
+        "College": "University of Rhode Island"
+    }
+]
