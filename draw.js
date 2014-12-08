@@ -26,19 +26,7 @@ function drawppg() {
 
 
 	}
-// Set chart options
-var options = 
-{
-	'title':'Average points scored per game',
-	'width':800,
-	'height':500,
-	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: 'Average Points', titleTextStyle: {color: 'black',bold: true, fontSize: 20, italic: false }},
-    series: {0:{color: '374ca6'}}
-};
-
-var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-chart.draw(data, options);
+drawGraph(data, 'Average points scored per game', 'Year', 'Average Points');
 }
 
 function drawfgp()
@@ -70,19 +58,8 @@ function drawfgp()
 		fga = 0;
 
 	}
-// Set chart options
-var options = 
-{
-	'title':'Field goals made percentage',
-	'width':800,
-	'height':500,
-	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: 'Percentage', format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    series: {0:{color: '374ca6'}}
-};
 
-var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-chart.draw(data, options);
+drawGraphPerc(data, 'Field goals made percentage', 'Year', 'Percentage');
 }
 
 function drawheight()
@@ -103,14 +80,34 @@ function drawheight()
 			]);
 
 	}
-// Set chart options
-var options = 
+drawGraph(data, 'Average player height', 'Year', 'Height (cm)');
+}
+
+function drawGraph(data, title, xAxis, yAxis)
+{
+	var options = 
 {	
-	'title':'Average player height',
+	'title':title,
 	'width':800,
 	'height':500,
-	hAxis: {title: 'Year', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: 'Height (cm)',  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: yAxis,  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    series: {0:{color: '374ca6'}}
+};
+
+var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+chart.draw(data, options);
+}
+
+function drawGraphPerc(data, title, xAxis, yAxis)
+{
+	var options = 
+{	
+	'title':title,
+	'width':800,
+	'height':500,
+	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: 'Percentage', format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     series: {0:{color: '374ca6'}}
 };
 
