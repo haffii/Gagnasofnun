@@ -14,7 +14,8 @@ function drawppg() {
 	{
 		for(var x = 0;x<database[i].length;x++)
 		{
-			points += parseInt(database[i][x].PTS);			
+			points += parseInt(database[i][x].PTS);	
+			
 		}
 
 		points = points/(seasons[0][i].Teams * seasons[0][i].Games);
@@ -62,26 +63,78 @@ function drawfgp()
 drawGraphPerc(data, 'Field goals made percentage', 'Year', 'Percentage');
 }
 
-function drawheight()
+function drawFreeThrow()
 {
 	chartType = 2;
 	if(to == 0){
 		to = database.length;
 	}
+	
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
-	data.addColumn('number', 'Height');
-	
+	data.addColumn('number', 'Freethrow %');
+	var fta = 0;
+	var ftm = 0;
 	for(var i = from; i<to;i++)
 	{
-
+		for(var x = 0;x<database[i].length;x++)
+		{
+			fta += parseInt(database[i][x].FTA);
+			ftm += parseInt(database[i][x].FT);
+			
+		}
+		var tmp = ftm/fta;
 		data.addRows([
-			[String(1950+i),avgHeight[i]]
+			[String(1950+i),tmp]
+			]);
+		fta = 0;
+		ftm = 0;
+	}
+drawGraphPerc(data, 'Average freethrow %', 'Year', 'Percentage');
+}
+
+function drawBlocks()
+{
+	chartType = 3;
+	if(to == 0){
+		to = database.length;
+	}
+	if(from < 1974)
+	{
+		from = 1974-1950;
+	}
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Blocks');
+	var blocks = 0;
+	var max = 0;
+	var year = 0;
+	var name;
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			if(max<parseInt(database[i][x].BLK))
+			{
+				max = parseInt(database[i][x].BLK);
+				year = parseInt(i+1950);
+				name = database[i][x].Player
+			}
+			blocks += parseInt(database[i][x].BLK)
+
+			
+		}
+		var tmp = blocks/(seasons[0][i].Teams * seasons[0][i].Games);
+		data.addRows([
+			[String(1950+i),tmp]
 			]);
 
+		blocks = 0;
 	}
-drawGraph(data, 'Average player height', 'Year', 'Height (cm)');
+	console.log(max+" - "+year+" - "+name)
+drawGraph(data, 'Average blocks per game', 'Year', 'Blocks');
 }
+
 
 function drawGraph(data, title, xAxis, yAxis)
 {
