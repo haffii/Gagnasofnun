@@ -174,7 +174,8 @@ function drawFt() {
 showhide("FTM");
 drawGraph(data, '', 'Year', 'Count');
 }
-function drawAge() {
+function drawAge() 
+{
 	chartType = 4;
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
@@ -212,9 +213,9 @@ function drawAge() {
 		ag = 0;
 	}
 	showhide("Age");
-	drawGraph(data, '', 'Year', 'Age');
+	drawGraph(data, '', 'Year', 'Age', 30,0);
 }
-function drawGraph(data, title, xAxis, yAxis)
+function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 
 {	
@@ -222,17 +223,16 @@ function drawGraph(data, title, xAxis, yAxis)
 	'width':800,
 	'height':500,
 	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: yAxis,  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: yAxis, viewWindow:{min:ymin, max:ymax},  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     series: {0:{color: '374ca6'}},
     'chartArea': { top: '5%'},
     
 };
-
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 chart.draw(data, options);
 }
 
-function drawGraphPerc(data, title, xAxis, yAxis)
+function drawGraphPerc(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 
 {	
@@ -240,7 +240,7 @@ function drawGraphPerc(data, title, xAxis, yAxis)
 	'width':800,
 	'height':500,
 	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: 'Percentage', format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: 'Percentage', viewWindow:{min:ymin, max:ymax}, format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     series: {0:{color: '374ca6'}},
     'chartArea': { top: '5%'},
 
