@@ -70,6 +70,9 @@ $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
 	else if(chartType == 3){
 		drawBlocks();
 	}
+	else if(chartType == 4){
+		drawAge();
+	}
 
 }
 });

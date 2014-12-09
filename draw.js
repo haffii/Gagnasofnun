@@ -137,8 +137,7 @@ function drawBlocks()
 		blocks = 0;
 	}
 	showhide("B");
-	drawGraphPerc(data, '', 'Year', 'Percentage')
-drawGraph(data, '', 'Year', 'Average Blocks');
+	drawGraph(data, '', 'Year', 'Average Blocks');
 }
 
 function drawFt() {
@@ -173,7 +172,46 @@ function drawFt() {
 showhide("FTM");
 drawGraph(data, '', 'Year', 'Count');
 }
+function drawAge() {
+	chartType = 4;
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Age');
+	var ag = 0;
+	var max = 0;
+	var year = 0;
+	var name;
+	for(var i = from; i<to;i++)
+	{
+		
+		for(var x = 0;x<database[i].length;x++)
+		{
+			var counter=0;
+			if(max<parseInt(database[i][x].Age))
+			{
+				max = parseInt(database[i][x].Age);
+				year = parseInt(i+1950);
+				name = database[i][x].Player
+			}
+			if(!database[i][x].Age == "")
+			{
+				ag += parseInt(database[i][x].Age)
+			}
+			else
+			{
+				counter++;
+			}
+		}
+		var tmp = ag/(database[i].length - counter);
+		data.addRows([
+			[String(1950+i),tmp]
+			]);
 
+		ag = 0;
+	}
+	showhide("Age");
+	drawGraph(data, '', 'Year', 'Age');
+}
 function drawGraph(data, title, xAxis, yAxis)
 {
 	var options = 
