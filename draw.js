@@ -149,7 +149,7 @@ function drawFt() {
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
 	data.addColumn('number', 'Attempts');
-	data.addColumn('number', 'made');
+	data.addColumn('number', 'Made');
 	var att = 0;
 	var ft = 0;
 	for(var i = from; i<to;i++)
@@ -170,8 +170,8 @@ function drawFt() {
 		att = 0;
 		ft = 0;
 	}
-
-drawGraph(data, 'Freethrow Made and Attempts', 'Year', 'Count');
+showhide("FTM");
+drawGraph(data, '', 'Year', 'Count');
 }
 
 function drawGraph(data, title, xAxis, yAxis)

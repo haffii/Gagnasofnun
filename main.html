@@ -22,16 +22,18 @@
 	<img src="images/banner.png" alt="NBA Statistics" width="100%" height="60%">
 	<div id = "body">
 	<div id="chart_buttons">
-		<button id="ppg" onclick="drawppg()">PPG</button>
-		<button id="fgp" onclick="drawfgp()">FG%</button>
-		<button id="fgp" onclick="drawBlocks()">Blocks</button>
-		<button id="fgp" onclick="drawFt()">FT</button>
-		<button id="fgp" onclick="drawFreeThrow()">FT%</button>
+		<button onclick="drawppg()">PPG</button>
+		<button onclick="drawfgp()">FG%</button>
+		<button onclick="drawBlocks()">Blocks</button>
+		<button onclick="drawFt()">FT</button>
+		<button onclick="drawFreeThrow()">FT%</button>
 	</div>
 	<div class="hide" id="PPG">Average points per game</div>
 	<div class="hide" id="FG">Average field goals made</div>
-	<div class="hide" id="FT">Average freethrow percentage</div>
 	<div class="hide" id="B">Average blocks</div>
+	<div class="hide" id="FTM">Freethrow Made and Attempts</div>
+	<div class="hide" id="FT">Freethrow percentage</div>
+	
 	<div id="chart_div"></div>
 
 	<div id='slider'>
