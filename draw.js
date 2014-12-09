@@ -94,7 +94,8 @@ function drawFreeThrow()
 		fta = 0;
 		ftm = 0;
 	}
-drawGraphPerc(data, 'Average freethrow %', 'Year', 'Percentage');
+	showhide("FT");
+drawGraphPerc(data, '', 'Year', 'Percentage');
 }
 
 function drawBlocks()
@@ -135,7 +136,8 @@ function drawBlocks()
 
 		blocks = 0;
 	}
-
+	showhide("B");
+	drawGraphPerc(data, '', 'Year', 'Percentage')
 }
 
 
