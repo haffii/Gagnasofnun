@@ -215,6 +215,86 @@ function drawAge()
 	showhide("Age");
 	drawGraph(data, '', 'Year', 'Age', 30,0);
 }
+function drawTo()
+{
+	chartType = 5;
+	if(to == 0){
+		to = database.length;
+	}
+	
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Turnovers');
+	var turn = 0;
+	var max = 0;
+	var maxyear = 0;
+	var maxgp = 0;
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			if(max<parseInt(database[i][x].TOV))
+			{
+				max = parseInt(database[i][x].TOV);
+				maxyear = parseInt(i+1950);
+				maxgp = database[i][x].G ;
+			}
+			turn += parseInt(database[i][x].TOV)
+
+			
+		}
+		var tmp = turn/(seasons[0][i].Teams * seasons[0][i].Games);
+		data.addRows([
+			[String(1950+i),tmp]
+			]);
+
+		turn = 0;
+	}
+	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
+
+	showhide("TO");
+	drawGraph(data, '', 'Year', 'Turnovers');
+}
+function drawTrb()
+{
+	chartType = 6;
+	if(to == 0){
+		to = database.length;
+	}
+	
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Rebounds');
+	var reb = 0;
+	var max = 0;
+	var maxyear = 0;
+	var maxgp = 0;
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			if(max<parseInt(database[i][x].TRB))
+			{
+				max = parseInt(database[i][x].TRB);
+				maxyear = parseInt(i+1950);
+				maxgp = database[i][x].G ;
+			}
+			reb += parseInt(database[i][x].TRB)
+
+			
+		}
+		var tmp = reb/(seasons[0][i].Teams * seasons[0][i].Games);
+		data.addRows([
+			[String(1950+i),tmp]
+			]);
+
+		reb = 0;
+	}
+	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
+
+	showhide("TRB");
+	drawGraph(data, '', 'Year', 'Rebounds', 'auto', 0);
+}
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 
