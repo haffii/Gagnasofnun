@@ -65,4 +65,15 @@ button:active {
 #chart_div
 {
 	text-align: center;
+   padding-top: -35px;
+}
+.hide
+{
+   display: none;
+   font-size: 30px;
+   text-align: center;
+   font-weight: bold;
+   padding-top: 15px;
+   font-family: Helvetica, Arial, Sans-Serif;
+
 }
