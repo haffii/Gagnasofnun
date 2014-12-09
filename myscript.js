@@ -65,7 +65,10 @@ $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
 		drawfgp();
 	}
 	else if(chartType == 2){
-		drawheight();
+		drawFreeThrow();
+	}
+	else if(chartType == 3){
+		drawBlocks();
 	}
 
 }
