@@ -104,17 +104,15 @@ function drawBlocks()
 	if(to == 0){
 		to = database.length;
 	}
-	if(from < 1974)
-	{
-		from = 1974-1950;
-	}
+	
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
 	data.addColumn('number', 'Blocks');
 	var blocks = 0;
 	var max = 0;
-	var year = 0;
-	var name;
+	var maxyear = 0;
+	var maxname;
+	var maxgp = 0;
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
@@ -122,13 +120,15 @@ function drawBlocks()
 			if(max<parseInt(database[i][x].BLK))
 			{
 				max = parseInt(database[i][x].BLK);
-				year = parseInt(i+1950);
-				name = database[i][x].Player
+				maxyear = parseInt(i+1950);
+				maxname = database[i][x].Player
+				maxgp = database[i][x].G 
 			}
 			blocks += parseInt(database[i][x].BLK)
 
 			
 		}
+		
 		var tmp = blocks/(seasons[0][i].Teams * seasons[0][i].Games);
 		data.addRows([
 			[String(1950+i),tmp]
@@ -136,6 +136,8 @@ function drawBlocks()
 
 		blocks = 0;
 	}
+	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
+
 	showhide("B");
 	drawGraph(data, '', 'Year', 'Average Blocks');
 }
