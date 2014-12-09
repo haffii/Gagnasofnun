@@ -135,7 +135,7 @@ function drawBlocks()
 
 		blocks = 0;
 	}
-
+drawGraph(data, '', 'Year', 'Average Blocks');
 }
 
 function drawFt() {
