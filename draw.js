@@ -135,12 +135,7 @@ function drawBlocks()
 
 		blocks = 0;
 	}
-<<<<<<< HEAD
-	console.log(max+" - "+year+" - "+name)
-drawGraph(data, 'Average blocks per game', 'Year', 'Blocks');
-=======
-drawGraph(data, '', 'Year', 'Height (cm)');
->>>>>>> origin/master
+
 }
 
 
