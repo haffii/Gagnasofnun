@@ -27,7 +27,9 @@ function drawppg() {
 
 
 	}
-drawGraph(data, 'Average points scored per game', 'Year', 'Average Points');
+	showhide("PPG");
+
+drawGraph(data, '', 'Year', 'Average Points');
 }
 
 function drawfgp()
@@ -59,8 +61,10 @@ function drawfgp()
 		fga = 0;
 
 	}
+	showhide("FG");
 
-drawGraphPerc(data, 'Field goals made percentage', 'Year', 'Percentage');
+
+drawGraphPerc(data, '', 'Year', 'Percentage');
 }
 
 function drawFreeThrow()
@@ -131,8 +135,12 @@ function drawBlocks()
 
 		blocks = 0;
 	}
+<<<<<<< HEAD
 	console.log(max+" - "+year+" - "+name)
 drawGraph(data, 'Average blocks per game', 'Year', 'Blocks');
+=======
+drawGraph(data, '', 'Year', 'Height (cm)');
+>>>>>>> origin/master
 }
 
 
@@ -145,7 +153,9 @@ function drawGraph(data, title, xAxis, yAxis)
 	'height':500,
 	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     vAxis: {title: yAxis,  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    series: {0:{color: '374ca6'}}
+    series: {0:{color: '374ca6'}},
+    'chartArea': { top: '5%'},
+    
 };
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
@@ -161,9 +171,23 @@ function drawGraphPerc(data, title, xAxis, yAxis)
 	'height':500,
 	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     vAxis: {title: 'Percentage', format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    series: {0:{color: '374ca6'}}
+    series: {0:{color: '374ca6'}},
+    'chartArea': { top: '5%'},
+
 };
 
 var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 chart.draw(data, options);
 }
+
+function showhide(id){
+        if (document.getElementById) {
+          var divid = document.getElementById(id);
+          var divs = document.getElementsByClassName("hide");
+          for(var i=0;i<divs.length;i++) {
+             divs[i].style.display = "none";
+          }
+          divid.style.display = "block";
+        } 
+        return false;
+ }
