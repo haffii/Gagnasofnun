@@ -136,12 +136,9 @@ function drawBlocks()
 
 		blocks = 0;
 	}
-<<<<<<< HEAD
 	showhide("B");
 	drawGraphPerc(data, '', 'Year', 'Percentage')
-=======
 drawGraph(data, '', 'Year', 'Average Blocks');
->>>>>>> origin/master
 }
 
 function drawFt() {
