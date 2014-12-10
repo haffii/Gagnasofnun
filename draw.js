@@ -485,6 +485,28 @@ function draw3pp()
 	showhide("3P%");
 drawGraphPerc(data, '', 'Year', 'Percentage');
 }
+function drawTeamCount()
+{
+	chartType = 12;
+	if(to == 0){
+		to =database.length;
+	}
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Teams');
+	var teams = 0;
+	for(var i = from; i<to;i++)
+	{
+		teams = seasons[0][i].Teams;
+		data.addRows([
+			[String(1950+i),teams]
+			]);
+		teams = 0;
+
+	}
+	showhide("Teams");
+drawGraph(data, '', 'Year', 'Number of teams');
+}
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 
