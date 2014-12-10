@@ -326,8 +326,6 @@ function drawPf()
 
 		pf = 0;
 	}
-	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
-
 	showhide("PF");
 	drawGraph(data, '', 'Year', 'Personal Fouls', 'auto', 0);
 }
@@ -363,6 +361,76 @@ function drawFg() {
 showhide("FGM");
 drawGraph(data, '', 'Year', 'Count');
 }
+function drawSt()
+{
+	chartType = 9;
+	if(to == 0){
+		to = database.length;
+	}
+	
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Steals');
+	var st = 0;
+	var max = 0;
+	var maxyear = 0;
+	var maxgp = 0;
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			if(max<parseInt(database[i][x].STL))
+			{
+				max = parseInt(database[i][x].STL);
+				maxyear = parseInt(i+1950);
+				maxgp = database[i][x].G ;
+			}
+			st += parseInt(database[i][x].STL)
+
+			
+		}
+		var tmp = st/(seasons[0][i].Teams * seasons[0][i].Games);
+		data.addRows([
+			[String(1950+i),tmp]
+			]);
+
+		st = 0;
+	}
+	showhide("ST");
+	drawGraph(data, '', 'Year', 'Steals', 'auto', 0);
+}
+// function draw3p() {
+// 	chartType = 10;
+// 	if(to == 0){
+// 		to = database.length;
+// 	}
+// 	var data = new google.visualization.DataTable();
+// 	data.addColumn('string', 'Year');
+// 	data.addColumn('number', 'Attempts');
+// 	data.addColumn('number', 'Made');
+// 	var att = 0;
+// 	var mad = 0;
+// 	for(var i = from; i<to;i++)
+// 	{
+// 		for(var x = 0;x<database[i].length;x++)
+// 		{
+// 			att += parseInt(database[i][x]."3PA");
+// 			mad += parseInt(database[i][x]."3P");			
+// 		}
+
+// 		att = att/(seasons[0][i].Teams * seasons[0][i].Games);
+// 		mad = mad/(seasons[0][i].Teams * seasons[0][i].Games);
+
+// 		data.addRows([
+// 			[String(1950+i), att, mad]
+// 			]);
+
+// 		att = 0;
+// 		mad = 0;
+// 	}
+// showhide("3P");
+// drawGraph(data, '', 'Year', 'Count');
+// }
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 

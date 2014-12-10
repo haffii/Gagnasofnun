@@ -73,6 +73,21 @@ $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
 	else if(chartType == 4){
 		drawAge();
 	}
+	else if(chartType == 5){
+		drawTo();
+	}
+	else if(chartType == 6){
+		drawTrb();
+	}
+	else if(chartType == 7){
+		drawPf();
+	}
+	else if(chartType == 8){
+		drawFg();
+	}
+	else if(chartType == 9){
+		drawSt();
+	}
 
 }
 });
