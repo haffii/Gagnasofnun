@@ -111,9 +111,8 @@ button:active {
     background: -moz-linear-gradient(right, #0423B0, #374ba6); 
     background: linear-gradient(to right, #001161, #374ba6);
    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-   font-style: bold;
    font-variant: normal;
-   font-weight: 500;
+   font-weight: 700;
    line-height: 26.3999996185303px;
    color: white;
 }
