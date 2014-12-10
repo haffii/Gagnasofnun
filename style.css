@@ -96,53 +96,14 @@ button:active {
 }
 #facts h2{
    text-align: center;
-   font-size: 30px;
+   font-size: 30px;im
 }
 #facts ul
 {
    list-style-type: none; 
 }
-#banner
+img
 {
-   height: 185px;
-   margin-bottom: 1%;
-    background: -webkit-linear-gradient(left, white , #374ba6);
-    background: -o-linear-gradient(right, white, #374ba6);
-    background: -moz-linear-gradient(right, #0423B0, #374ba6); 
-    background: linear-gradient(to right, #001161, #374ba6);
-   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-   font-variant: normal;
-   font-weight: 700;
-   line-height: 26.3999996185303px;
-   color: white;
-}
-#decal {
-   
-    width:12%;
-    display:inline-block;
-    height:12%;
-   padding-left: 10%;
-   padding-top: 1%;
-}
-img {
-    width: 100%
-}
-#bannerText1 {
-    font-size:500%;
-    display:inline-block;
-    width:50%;
-    padding-bottom:5%;
-   padding-left:5%;
-    height:70%;
-    vertical-align:bottom;
-}
-#bannerText2 {
-    font-size:200%;
-    display:inline-block;
-    width:50%;
-    padding-bottom:1%;
-    margin-top:-6%;
-    padding-left:44%;
-    height:100%;
-    vertical-align:bottom;
+   width: 100%;
+   height: auto;
 }
