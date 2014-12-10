@@ -399,38 +399,50 @@ function drawSt()
 	showhide("ST");
 	drawGraph(data, '', 'Year', 'Steals', 'auto', 0);
 }
-// function draw3p() {
-// 	chartType = 10;
-// 	if(to == 0){
-// 		to = database.length;
-// 	}
-// 	var data = new google.visualization.DataTable();
-// 	data.addColumn('string', 'Year');
-// 	data.addColumn('number', 'Attempts');
-// 	data.addColumn('number', 'Made');
-// 	var att = 0;
-// 	var mad = 0;
-// 	for(var i = from; i<to;i++)
-// 	{
-// 		for(var x = 0;x<database[i].length;x++)
-// 		{
-// 			att += parseInt(database[i][x]."3PA");
-// 			mad += parseInt(database[i][x]."3P");			
-// 		}
+function draw3p() {
+	chartType = 10;
+	if(to == 0){
+		to = database.length;
+	}
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Attempts');
+	data.addColumn('number', 'Made');
+	var att = 0;
+	var mad = 0;
+	var a = '3PA'
+	var b = '3P'
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			if(!database[i][x][a] == "")
+			{
+				att += parseInt(database[i][x][a]);
+			}
+			if (0 < parseInt(database[i][x][b]) < 1)
+			{
+				 database[i][x][b] = database[i][x][a]*database[i][x][b];
+				 mad += parseInt(database[i][x][b]);
+			}
+			else if(!database[i][x][b] == "")
+			{
+				mad += parseInt(database[i][x][b]);			
+			}
+		}
+		att = att/(seasons[0][i].Teams * seasons[0][i].Games);
+		mad = mad/(seasons[0][i].Teams * seasons[0][i].Games);
 
-// 		att = att/(seasons[0][i].Teams * seasons[0][i].Games);
-// 		mad = mad/(seasons[0][i].Teams * seasons[0][i].Games);
+		data.addRows([
+			[String(1950+i), att, mad]
+			]);
 
-// 		data.addRows([
-// 			[String(1950+i), att, mad]
-// 			]);
-
-// 		att = 0;
-// 		mad = 0;
-// 	}
-// showhide("3P");
-// drawGraph(data, '', 'Year', 'Count');
-// }
+		att = 0;
+		mad = 0;
+	}
+showhide("3P");
+drawGraph(data, '', 'Year', 'Count');
+}
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 
