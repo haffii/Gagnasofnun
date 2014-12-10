@@ -331,6 +331,38 @@ function drawPf()
 	showhide("PF");
 	drawGraph(data, '', 'Year', 'Personal Fouls', 'auto', 0);
 }
+function drawFg() {
+	chartType = 8;
+	if(to == 0){
+		to = database.length;
+	}
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Attempts');
+	data.addColumn('number', 'Made');
+	var att = 0;
+	var ft = 0;
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			att += parseInt(database[i][x].FGA);
+			ft += parseInt(database[i][x].FG);			
+		}
+
+		att = att/(seasons[0][i].Teams * seasons[0][i].Games);
+		ft = ft/(seasons[0][i].Teams * seasons[0][i].Games);
+
+		data.addRows([
+			[String(1950+i), att, ft]
+			]);
+
+		att = 0;
+		ft = 0;
+	}
+showhide("FGM");
+drawGraph(data, '', 'Year', 'Count');
+}
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 

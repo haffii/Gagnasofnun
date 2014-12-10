@@ -23,32 +23,36 @@
 	<div id = "body">
 	<div id="chart_buttons">
 		<button onclick="drawppg()">PPG</button>
+		<button onclick="drawFg()">FG</button>
 		<button onclick="drawfgp()">FG%</button>
-		<button onclick="drawBlocks()">Blocks</button>
 		<button onclick="drawFt()">FT</button>
 		<button onclick="drawFreeThrow()">FT%</button>
 		<button onclick="drawAge()">Age</button>
+		<button onclick="drawBlocks()">Blocks</button>
 		<button onclick="drawTo()">TO</button>
 		<button onclick="drawTrb()">TRB</button>
 		<button onclick="drawPf()">PF</button>
 
 	</div>
-	<div class="hide" id="PPG">Average points per game</div>
-	<div class="hide" id="FG">Average field goals made</div>
-	<div class="hide" id="B">Average blocks</div>
-	<div class="hide" id="FTM">Freethrow Made and Attempts</div>
-	<div class="hide" id="FT">Freethrow percentage</div>
-	<div class="hide" id="Age">Average player age</div>
-	<div class="hide" id="TO">Average turnovers per game</div>
-	<div class="hide" id="TRB">Average rebounds per game</div>
-	<div class="hide" id="PF">Average personal fouls per game</div>
+	<div id='titles'>
+		<div class="hide" id="PPG">Average points per game</div>
+		<div class="hide" id="FGM">Field goals Made and Attempts</div>
+		<div class="hide" id="FG">Average field goals made</div>
+		<div class="hide" id="B">Average blocks</div>
+		<div class="hide" id="FTM">Freethrow Made and Attempts</div>
+		<div class="hide" id="FT">Freethrow percentage</div>
+		<div class="hide" id="Age">Average player age</div>
+		<div class="hide" id="TO">Average turnovers per game</div>
+		<div class="hide" id="TRB">Average rebounds per game</div>
+		<div class="hide" id="PF">Average personal fouls per game</div>
+	</div>
 	<div id="chart_div"></div>
 
 	<div id='slider'>
 	<label for="amount"></label>
 	<input type="text" id="amount" >
-	</div>
 	<div id="slider-range">
+	</div>
 
 </div>
 </div>

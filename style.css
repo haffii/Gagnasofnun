@@ -6,7 +6,7 @@ body
 }
 #body
 {
-	width:800px ; 
+	width:900px ; 
 	margin:auto;
 	padding-bottom: 50px;
 } 
@@ -15,9 +15,11 @@ body
 	text-align: center;
 }
 #slider-range{
-	margin-left: 150px;
 	margin-top: 10px;
 	width: 500px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #amount {
@@ -26,6 +28,31 @@ body
 	color:#374ca6; 
 	font-weight:bold;
 	text-align: center;
+}
+
+#chart_buttons
+{
+	text-align: center;
+}
+#chart_div
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+   padding-top: -35px;
+   position: relative;
+   width: 800px;
+   height: 500px;
+}
+.hide
+{
+   display: none;
+   font-size: 30px;
+   text-align: center;
+   font-weight: bold;
+   padding-top: 15px;
+   font-family: Helvetica, Arial, Sans-Serif;
+
 }
 button {
    border-top: 1px solid #ffffff;
@@ -58,22 +85,3 @@ button:active {
    border-top-color: #1b435e;
    background: #1b435e;
    }
-#chart_buttons
-{
-	text-align: center;
-}
-#chart_div
-{
-	text-align: center;
-   padding-top: -35px;
-}
-.hide
-{
-   display: none;
-   font-size: 30px;
-   text-align: center;
-   font-weight: bold;
-   padding-top: 15px;
-   font-family: Helvetica, Arial, Sans-Serif;
-
-}
