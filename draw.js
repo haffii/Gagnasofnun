@@ -250,8 +250,6 @@ function drawTo()
 
 		turn = 0;
 	}
-	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
-
 	showhide("TO");
 	drawGraph(data, '', 'Year', 'Turnovers');
 }
@@ -290,10 +288,48 @@ function drawTrb()
 
 		reb = 0;
 	}
-	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
-
 	showhide("TRB");
 	drawGraph(data, '', 'Year', 'Rebounds', 'auto', 0);
+}
+function drawPf()
+{
+	chartType = 7;
+	if(to == 0){
+		to = database.length;
+	}
+	
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', 'Personal Fouls');
+	var pf = 0;
+	var max = 0;
+	var maxyear = 0;
+	var maxgp = 0;
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			if(max<parseInt(database[i][x].PF))
+			{
+				max = parseInt(database[i][x].PF);
+				maxyear = parseInt(i+1950);
+				maxgp = database[i][x].G ;
+			}
+			pf += parseInt(database[i][x].PF)
+
+			
+		}
+		var tmp = pf/(seasons[0][i].Teams * seasons[0][i].Games);
+		data.addRows([
+			[String(1950+i),tmp]
+			]);
+
+		pf = 0;
+	}
+	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
+
+	showhide("PF");
+	drawGraph(data, '', 'Year', 'Personal Fouls', 'auto', 0);
 }
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
