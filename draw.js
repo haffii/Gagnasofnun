@@ -443,6 +443,42 @@ function draw3p() {
 showhide("3P");
 drawGraph(data, '', 'Year', 'Count');
 }
+function draw3pp()
+{
+	chartType = 11;
+	if(to == 0){
+		to =database.length;
+	}
+	var data = new google.visualization.DataTable();
+	data.addColumn('string', 'Year');
+	data.addColumn('number', '3P%');
+	var P = 0;
+	var PA = 0;
+	var m = '3P';
+	var a = '3PA';
+	for(var i = from; i<to;i++)
+	{
+		for(var x = 0;x<database[i].length;x++)
+		{
+			if(0< parseInt(database[i][x][m]) < 1)
+			{
+				database[i][x][m] = database[i][x][m]*database[i][x][a];
+			}
+			P += parseInt(database[i][x][m]);
+			PA += parseInt(database[i][x][a]);
+
+		}
+		P = P/PA;
+		data.addRows([
+			[String(1950+i),P]
+			]);
+		P = 0;
+		PA = 0;
+
+	}
+	showhide("3P%");
+drawGraphPerc(data, '', 'Year', 'Percentage');
+}
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 

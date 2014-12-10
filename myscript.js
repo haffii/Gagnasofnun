@@ -88,6 +88,9 @@ $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
 	else if(chartType == 9){
 		drawSt();
 	}
+	else if(chartType == 10){
+		draw3p();
+	}
 
 }
 });
