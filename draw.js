@@ -104,7 +104,11 @@ function drawBlocks()
 	if(to == 0){
 		to = database.length;
 	}
-	
+ 	var temp1= from+1950;
+ 	var temp2 = to+1950;
+ 	$("#facts").empty();
+	$("#facts").append(	"<h2>Facts "+temp1+" - "+temp2+"</h2>");
+
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
 	data.addColumn('number', 'Blocks');
@@ -125,8 +129,7 @@ function drawBlocks()
 				maxgp = database[i][x].G 
 			}
 			blocks += parseInt(database[i][x].BLK)
-
-			
+	
 		}
 		
 		var tmp = blocks/(seasons[0][i].Teams * seasons[0][i].Games);
@@ -136,8 +139,11 @@ function drawBlocks()
 
 		blocks = 0;
 	}
+	$("#facts").append("<ul id='factslist'></ul>");
+	var avg = max/maxgp;
+	avg = avg.toFixed(2)
 	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
-
+	$("#factslist").append("<li>Most Blocks in one season : "+max+" in "+maxyear+" by "+maxname+" with average of "+avg+" blocks per game  </li>");
 	showhide("B");
 	drawGraph(data, '', 'Year', 'Average Blocks');
 }
