@@ -90,7 +90,7 @@ button:active {
    width: 400px;
    height: 400px;
    position: absolute;
-   right: 50px;
+   right: 1%;
    top:350px;
    font-family: Helvetica, Arial, Sans-Serif;
 }
@@ -101,4 +101,49 @@ button:active {
 #facts ul
 {
    list-style-type: none; 
+}
+#banner
+{
+   height: 185px;
+   margin-bottom: 1%;
+    background: -webkit-linear-gradient(left, white , #374ba6);
+    background: -o-linear-gradient(right, white, #374ba6);
+    background: -moz-linear-gradient(right, #0423B0, #374ba6); 
+    background: linear-gradient(to right, #001161, #374ba6);
+   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+   font-style: bold;
+   font-variant: normal;
+   font-weight: 500;
+   line-height: 26.3999996185303px;
+   color: white;
+}
+#decal {
+   
+    width:12%;
+    display:inline-block;
+    height:12%;
+   padding-left: 10%;
+   padding-top: 1%;
+}
+img {
+    width: 100%
+}
+#bannerText1 {
+    font-size:500%;
+    display:inline-block;
+    width:50%;
+    padding-bottom:5%;
+   padding-left:5%;
+    height:70%;
+    vertical-align:bottom;
+}
+#bannerText2 {
+    font-size:200%;
+    display:inline-block;
+    width:50%;
+    padding-bottom:1%;
+    margin-top:-6%;
+    padding-left:44%;
+    height:100%;
+    vertical-align:bottom;
 }
