@@ -3,17 +3,27 @@ function drawppg() {
 	if(to == 0){
 		to = database.length;
 	}
+	facts();
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
 	data.addColumn('number', 'Points');
 
-
 	var points = 0;
-
+	var maxpoints = 0;
+	var maxpointsname = "";
+	var maxpointsyear = 0;
+	var maxavg = 0;
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
 		{
+			if(maxpoints < parseInt(database[i][x].PTS)){
+				maxpoints=database[i][x].PTS;
+				maxpointsname = database[i][x].Player;
+				maxpointsyear = i+1950;
+				maxavg = (database[i][x].PTS/database[i][x].G)
+				maxavg = maxavg.toFixed(2);
+			}
 			points += parseInt(database[i][x].PTS);	
 			
 		}
@@ -27,6 +37,7 @@ function drawppg() {
 
 
 	}
+	$("#factslist").append("<li>Most points scored in one season : "+maxpoints+" in "+maxpointsyear+" by "+maxpointsname+" averaging "+maxavg+" points per game</li>");
 	showhide("PPG");
 
 drawGraph(data, '', 'Year', 'Average Points');
@@ -38,29 +49,33 @@ function drawfgp()
 	if(to == 0){
 		to =database.length;
 	}
+	facts();
+
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
 	data.addColumn('number', 'FG%');
 	var fg = 0;
 	var fga = 0;
+
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
 		{
 			fg += parseInt(database[i][x].FG);
 			fga += parseInt(database[i][x].FGA);
-
+			
 		}
+
 		fg = fg/fga;
 		data.addRows([
 			[String(1950+i),fg]
 			]);
 
-
 		fg = 0;
 		fga = 0;
 
 	}
+
 	showhide("FG");
 
 
@@ -69,6 +84,7 @@ drawGraphPerc(data, '', 'Year', 'Percentage');
 
 function drawFreeThrow()
 {
+	facts();
 	chartType = 2;
 	if(to == 0){
 		to = database.length;
@@ -104,11 +120,8 @@ function drawBlocks()
 	if(to == 0){
 		to = database.length;
 	}
- 	var temp1= from+1950;
- 	var temp2 = to+1950;
- 	$("#facts").empty();
-	$("#facts").append(	"<h2>Facts "+temp1+" - "+temp2+"</h2>");
 
+	facts();
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
 	data.addColumn('number', 'Blocks');
@@ -139,7 +152,6 @@ function drawBlocks()
 
 		blocks = 0;
 	}
-	$("#facts").append("<ul id='factslist'></ul>");
 	var avg = max/maxgp;
 	avg = avg.toFixed(2)
 	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
@@ -147,8 +159,16 @@ function drawBlocks()
 	showhide("B");
 	drawGraph(data, '', 'Year', 'Average Blocks');
 }
-
+function facts(){
+var temp1= from+1950;
+ 	var temp2 = to+1950;
+ 	$("#facts").empty();
+	$("#facts").append(	"<h2>Facts</h2>");
+	$("#facts").append(	"<h3>"+temp1+" - "+temp2+"</h3>");
+	$("#facts").append("<ul id='factslist'></ul>");
+}
 function drawFt() {
+	facts();
 	chartType = 0;
 	if(to == 0){
 		to = database.length;
@@ -182,6 +202,7 @@ drawGraph(data, '', 'Year', 'Count');
 }
 function drawAge() 
 {
+	facts();
 	chartType = 4;
 	var data = new google.visualization.DataTable();
 	data.addColumn('string', 'Year');
@@ -223,6 +244,7 @@ function drawAge()
 }
 function drawTo()
 {
+	facts();
 	chartType = 5;
 	if(to == 0){
 		to = database.length;
@@ -261,6 +283,7 @@ function drawTo()
 }
 function drawTrb()
 {
+	facts();
 	chartType = 6;
 	if(to == 0){
 		to = database.length;
@@ -299,6 +322,7 @@ function drawTrb()
 }
 function drawPf()
 {
+	facts();
 	chartType = 7;
 	if(to == 0){
 		to = database.length;
@@ -336,6 +360,7 @@ function drawPf()
 	drawGraph(data, '', 'Year', 'Personal Fouls', 'auto', 0);
 }
 function drawFg() {
+	facts();
 	chartType = 8;
 	if(to == 0){
 		to = database.length;
@@ -369,6 +394,7 @@ drawGraph(data, '', 'Year', 'Count');
 }
 function drawSt()
 {
+	facts();
 	chartType = 9;
 	if(to == 0){
 		to = database.length;
@@ -406,6 +432,7 @@ function drawSt()
 	drawGraph(data, '', 'Year', 'Steals', 'auto', 0);
 }
 function draw3p() {
+	facts();
 	chartType = 10;
 	if(to == 0){
 		to = database.length;
@@ -451,6 +478,7 @@ drawGraph(data, '', 'Year', 'Count');
 }
 function draw3pp()
 {
+	facts();
 	chartType = 11;
 	if(to == 0){
 		to =database.length;
@@ -487,6 +515,7 @@ drawGraphPerc(data, '', 'Year', 'Percentage');
 }
 function drawTeamCount()
 {
+	facts();
 	chartType = 12;
 	if(to == 0){
 		to =database.length;

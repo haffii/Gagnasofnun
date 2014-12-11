@@ -98,6 +98,10 @@ button:active {
    text-align: center;
    font-size: 30px;im
 }
+#facts h3
+{
+   text-align: center;
+}
 #facts ul
 {
    list-style-type: none; 
