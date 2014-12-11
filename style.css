@@ -90,13 +90,13 @@ button:active {
    width: 400px;
    height: 400px;
    position: absolute;
-   right: 1%;
+   right: 5%;
    top:350px;
    font-family: Helvetica, Arial, Sans-Serif;
 }
 #facts h2{
    text-align: center;
-   font-size: 30px;im
+   font-size: 30px;
 }
 #facts h3
 {

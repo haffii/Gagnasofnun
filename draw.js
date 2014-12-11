@@ -161,7 +161,7 @@ function drawBlocks()
 }
 function facts(){
 var temp1= from+1950;
- 	var temp2 = to+1950;
+ 	var temp2 = to+1949;
  	$("#facts").empty();
 	$("#facts").append(	"<h2>Facts</h2>");
 	$("#facts").append(	"<h3>"+temp1+" - "+temp2+"</h3>");
