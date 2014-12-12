@@ -38,6 +38,7 @@ function drawppg() {
 
 	}
 	$("#factslist").append("<li>Most points scored in one season : "+maxpoints+" in "+maxpointsyear+" by "+maxpointsname+" averaging "+maxavg+" points per game</li>");
+	highlight('PPGB');
 	showhide("PPG");
 
 drawGraph(data, '', 'Year', 'Average Points');
@@ -75,7 +76,7 @@ function drawfgp()
 		fga = 0;
 
 	}
-
+	highlight('FGB');
 	showhide("FG");
 
 
@@ -110,6 +111,7 @@ function drawFreeThrow()
 		fta = 0;
 		ftm = 0;
 	}
+	highlight('FTB');
 	showhide("FT");
 drawGraphPerc(data, '', 'Year', 'Percentage');
 }
@@ -156,6 +158,7 @@ function drawBlocks()
 	avg = avg.toFixed(2)
 	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
 	$("#factslist").append("<li>Most Blocks in one season : "+max+" in "+maxyear+" by "+maxname+" with average of "+avg+" blocks per game  </li>");
+	highlight('BB');
 	showhide("B");
 	drawGraph(data, '', 'Year', 'Average Blocks');
 }
@@ -197,6 +200,7 @@ function drawFt() {
 		att = 0;
 		ft = 0;
 	}
+	highlight('FTMB');
 showhide("FTM");
 drawGraph(data, '', 'Year', 'Count');
 }
@@ -239,6 +243,7 @@ function drawAge()
 
 		ag = 0;
 	}
+	highlight('AgeB');
 	showhide("Age");
 	drawGraph(data, '', 'Year', 'Age', 30,0);
 }
@@ -278,6 +283,7 @@ function drawTo()
 
 		turn = 0;
 	}
+	highlight('TOB');
 	showhide("TO");
 	drawGraph(data, '', 'Year', 'Turnovers');
 }
@@ -317,6 +323,7 @@ function drawTrb()
 
 		reb = 0;
 	}
+	highlight('TRBB');
 	showhide("TRB");
 	drawGraph(data, '', 'Year', 'Rebounds', 'auto', 0);
 }
@@ -356,6 +363,7 @@ function drawPf()
 
 		pf = 0;
 	}
+	highlight('PFB');
 	showhide("PF");
 	drawGraph(data, '', 'Year', 'Personal Fouls', 'auto', 0);
 }
@@ -389,6 +397,7 @@ function drawFg() {
 		att = 0;
 		ft = 0;
 	}
+	highlight('FGMB');
 showhide("FGM");
 drawGraph(data, '', 'Year', 'Count');
 }
@@ -428,6 +437,7 @@ function drawSt()
 
 		st = 0;
 	}
+	highlight('STB');
 	showhide("ST");
 	drawGraph(data, '', 'Year', 'Steals', 'auto', 0);
 }
@@ -473,6 +483,7 @@ function draw3p() {
 		att = 0;
 		mad = 0;
 	}
+highlight('3PB');
 showhide("3P");
 drawGraph(data, '', 'Year', 'Count');
 }
@@ -510,6 +521,7 @@ function draw3pp()
 		PA = 0;
 
 	}
+	highlight('3P%B');
 	showhide("3P%");
 drawGraphPerc(data, '', 'Year', 'Percentage');
 }
@@ -533,6 +545,7 @@ function drawTeamCount()
 		teams = 0;
 
 	}
+	highlight('TeamsB');
 	showhide("Teams");
 drawGraph(data, '', 'Year', 'Number of teams');
 }
@@ -579,6 +592,18 @@ function showhide(id){
              divs[i].style.display = "none";
           }
           divid.style.display = "block";
+        } 
+        return false;
+ }
+function highlight(id){
+        if (document.getElementById) {
+          var divid = document.getElementById(id);
+          var divs = document.getElementsByClassName("buttons");
+          for(var i=0;i<divs.length;i++) {
+             divs[i].style.background = "#374ba6";
+
+          }
+          divid.style.background = "red";
         } 
         return false;
  }
