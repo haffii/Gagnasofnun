@@ -652,9 +652,6 @@ function drawTeamCount()
 	showhide("Teams");
 	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Teams');
 }
-<<<<<<< HEAD
-function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
-=======
 function drawChamps()
 {
 	facts();
@@ -676,8 +673,8 @@ function drawChamps()
     highlight('ChampsB');
 	showhide("Champs");
 }
-function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
->>>>>>> origin/master
+function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
+
 {
 	$("#y-axis").empty();
 	$("#y-axis").append(	"<h2>"+ytitle+"</h2>");
