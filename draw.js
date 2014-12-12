@@ -40,8 +40,7 @@ function drawppg() {
 	$("#factslist").append("<li>Most points scored in one season : "+maxpoints+" in "+maxpointsyear+" by "+maxpointsname+" averaging "+maxavg+" points per game</li>");
 	highlight('PPGB');
 	showhide("PPG");
-
-drawGraph(data, '', 'Year', 'Average Points');
+	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Points');
 }
 
 function drawfgp()
@@ -80,7 +79,7 @@ function drawfgp()
 	showhide("FG");
 
 
-drawGraphPerc(data, '', 'Year', 'Percentage');
+	drawGraphPerc(data, '', 'Year', '');
 }
 
 function drawFreeThrow()
@@ -113,7 +112,7 @@ function drawFreeThrow()
 	}
 	highlight('FTB');
 	showhide("FT");
-drawGraphPerc(data, '', 'Year', 'Percentage');
+	drawGraphPerc(data, '', 'Year', '');
 }
 
 function drawBlocks()
@@ -160,10 +159,10 @@ function drawBlocks()
 	$("#factslist").append("<li>Most Blocks in one season : "+max+" in "+maxyear+" by "+maxname+" with average of "+avg+" blocks per game  </li>");
 	highlight('BB');
 	showhide("B");
-	drawGraph(data, '', 'Year', 'Average Blocks');
+	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Blocks');
 }
 function facts(){
-var temp1= from+1950;
+	var temp1= from+1950;
  	var temp2 = to+1949;
  	$("#facts").empty();
 	$("#facts").append(	"<h2>Facts</h2>");
@@ -201,8 +200,9 @@ function drawFt() {
 		ft = 0;
 	}
 	highlight('FTMB');
-showhide("FTM");
-drawGraph(data, '', 'Year', 'Count');
+	showhide("FTM");
+
+	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Count');
 }
 function drawAge() 
 {
@@ -245,7 +245,7 @@ function drawAge()
 	}
 	highlight('AgeB');
 	showhide("Age");
-	drawGraph(data, '', 'Year', 'Age', 30,0);
+	drawGraph(data, '', 'Year', '', 'auto',20, [20,22,24,26,28,30], 'Age');
 }
 function drawTo()
 {
@@ -285,7 +285,7 @@ function drawTo()
 	}
 	highlight('TOB');
 	showhide("TO");
-	drawGraph(data, '', 'Year', 'Turnovers');
+	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Turnovers');
 }
 function drawTrb()
 {
@@ -325,7 +325,7 @@ function drawTrb()
 	}
 	highlight('TRBB');
 	showhide("TRB");
-	drawGraph(data, '', 'Year', 'Rebounds', 'auto', 0);
+	drawGraph(data, '', 'Year', '', 'auto', 0,'', 'Rebounds');
 }
 function drawPf()
 {
@@ -365,7 +365,7 @@ function drawPf()
 	}
 	highlight('PFB');
 	showhide("PF");
-	drawGraph(data, '', 'Year', 'Personal Fouls', 'auto', 0);
+	drawGraph(data, '', 'Year', '', 'auto', 0,[0,10,20,30], 'Fouls');
 }
 function drawFg() {
 	facts();
@@ -398,8 +398,8 @@ function drawFg() {
 		ft = 0;
 	}
 	highlight('FGMB');
-showhide("FGM");
-drawGraph(data, '', 'Year', 'Count');
+	showhide("FGM");
+	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Count');
 }
 function drawSt()
 {
@@ -439,7 +439,7 @@ function drawSt()
 	}
 	highlight('STB');
 	showhide("ST");
-	drawGraph(data, '', 'Year', 'Steals', 'auto', 0);
+	drawGraph(data, '', 'Year', '', 'auto', 0, '', 'Steals');
 }
 function draw3p() {
 	facts();
@@ -483,9 +483,9 @@ function draw3p() {
 		att = 0;
 		mad = 0;
 	}
-highlight('3PB');
-showhide("3P");
-drawGraph(data, '', 'Year', 'Count');
+	highlight('3PB');
+	showhide("3P");
+	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Count');
 }
 function draw3pp()
 {
@@ -523,7 +523,7 @@ function draw3pp()
 	}
 	highlight('3P%B');
 	showhide("3P%");
-drawGraphPerc(data, '', 'Year', 'Percentage');
+	drawGraphPerc(data, '', 'Year', '');
 }
 function drawTeamCount()
 {
@@ -547,17 +547,19 @@ function drawTeamCount()
 	}
 	highlight('TeamsB');
 	showhide("Teams");
-drawGraph(data, '', 'Year', 'Number of teams');
+	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Teams');
 }
-function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
+function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
 {
+	$("#y-axis").empty();
+	$("#y-axis").append(	"<h2>"+ytitle+"</h2>");
 	var options = 
 {	
 	'title':title,
 	'width':800,
 	'height':500,
 	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: yAxis, viewWindow:{min:ymin, max:ymax},  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: yAxis, viewWindow:{min:ymin, max:ymax},  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }, ticks:ticker},
     series: {0:{color: '374ca6'}},
     'chartArea': { top: '5%'},
     
@@ -566,15 +568,17 @@ var chart = new google.visualization.LineChart(document.getElementById('chart_di
 chart.draw(data, options);
 }
 
-function drawGraphPerc(data, title, xAxis, yAxis, ymax, ymin)
+function drawGraphPerc(data, title, xAxis, yAxis, ymax, ymin, ticker)
 {
+	$("#y-axis").empty();
+	$("#y-axis").append(	"<h2>Percentage</h2>");
 	var options = 
 {	
 	'title':title,
 	'width':800,
 	'height':500,
-	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-    vAxis: {title: 'Percentage', viewWindow:{min:ymin, max:ymax}, format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+	hAxis: {title: xAxis,  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+    vAxis: {title: '', viewWindow:{min:ymin, max:ymax}, format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }, ticks:ticker},
     series: {0:{color: '374ca6'}},
     'chartArea': { top: '5%'},
 
