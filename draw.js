@@ -56,14 +56,25 @@ function drawfgp()
 	data.addColumn('number', 'FG%');
 	var fg = 0;
 	var fga = 0;
-
+	var max = 0;
+	var maxgp = 0;
+	var maxname = "";
+	var maxyear = 0;
+	var maxavg = 0;
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
 		{
 			fg += parseInt(database[i][x].FG);
 			fga += parseInt(database[i][x].FGA);
-			
+			if(max < parseInt(database[i][x].FGA))
+			{
+				max = parseInt(database[i][x].FGA);
+				maxgp = parseInt(database[i][x].G);
+				maxname = database[i][x].Player;
+				maxyear = i+1950;
+				maxavg = parseInt(database[i][x].FG)/parseInt(database[i][x].FGA)
+			}
 		}
 
 		fg = fg/fga;
@@ -75,9 +86,13 @@ function drawfgp()
 		fga = 0;
 
 	}
-	highlight('FGB');
-	showhide("FG");
 
+	highlight('FGB');
+
+	showhide("FG");
+maxavg = maxavg*100;
+maxavg = maxavg.toFixed(2);
+$("#factslist").append("<li>Most field goals attempted in one season : "+max+" in "+maxyear+" by "+maxname+" making "+maxavg+"% of them</li>");
 
 	drawGraphPerc(data, '', 'Year', '');
 }
@@ -95,14 +110,28 @@ function drawFreeThrow()
 	data.addColumn('number', 'Freethrow %');
 	var fta = 0;
 	var ftm = 0;
+	var max = 0;
+	var maxname = "";
+	var maxyear = 0;
+	var maxgp = 0;
+	var maxavg = 0;
+	var maxatt = 0;
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
 		{
 			fta += parseInt(database[i][x].FTA);
 			ftm += parseInt(database[i][x].FT);
-			
+			if(max < parseInt(database[i][x].FT))
+			{
+			max = database[i][x].FT;
+			maxname = database[i][x].Player;
+			maxgp = database[i][x].G;
+			maxatt = database[i][x].FTA;
+			maxyear = i+1950;
+			}
 		}
+		
 		var tmp = ftm/fta;
 		data.addRows([
 			[String(1950+i),tmp]
@@ -110,7 +139,16 @@ function drawFreeThrow()
 		fta = 0;
 		ftm = 0;
 	}
+	var temp = max/maxatt;
+	temp = temp*100;
+	temp = temp.toFixed(2);
+	maxavg = max/maxgp;
+	maxavg = maxavg.toFixed(2);
+	$("#factslist").append("<li>Most Freethrows made in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" freethrows made per game, making around "+temp+"% of his freethrows</li>");
+	
+
 	highlight('FTB');
+
 	showhide("FT");
 	drawGraphPerc(data, '', 'Year', '');
 }
@@ -156,7 +194,11 @@ function drawBlocks()
 	var avg = max/maxgp;
 	avg = avg.toFixed(2)
 	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
-	$("#factslist").append("<li>Most Blocks in one season : "+max+" in "+maxyear+" by "+maxname+" with average of "+avg+" blocks per game  </li>");
+	
+	if(to>1974-1950)
+	{
+		$("#factslist").append("<li>Most Blocks in one season : "+max+" in "+maxyear+" by "+maxname+" with average of "+avg+" blocks per game  </li>");
+	}
 	highlight('BB');
 	showhide("B");
 	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Blocks');
@@ -214,7 +256,7 @@ function drawAge()
 	var ag = 0;
 	var max = 0;
 	var year = 0;
-	var name;
+	var name = "";
 	for(var i = from; i<to;i++)
 	{
 		
@@ -224,7 +266,7 @@ function drawAge()
 			if(max<parseInt(database[i][x].Age))
 			{
 				max = parseInt(database[i][x].Age);
-				year = parseInt(i+1950);
+				year = i+1950;
 				name = database[i][x].Player
 			}
 			if(!database[i][x].Age == "")
@@ -243,7 +285,11 @@ function drawAge()
 
 		ag = 0;
 	}
+
+	$("#factslist").append("<li>Oldest player in the NBA : "+name+" in "+year+" at the age of "+max+"</li>");
+
 	highlight('AgeB');
+
 	showhide("Age");
 	drawGraph(data, '', 'Year', '', 'auto',20, [20,22,24,26,28,30], 'Age');
 }
@@ -262,6 +308,8 @@ function drawTo()
 	var max = 0;
 	var maxyear = 0;
 	var maxgp = 0;
+	var maxname = "";
+	var maxavg = 0;
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
@@ -269,8 +317,9 @@ function drawTo()
 			if(max<parseInt(database[i][x].TOV))
 			{
 				max = parseInt(database[i][x].TOV);
-				maxyear = parseInt(i+1950);
+				maxyear = i+1950;
 				maxgp = database[i][x].G ;
+				maxname = database[i][x].Player;
 			}
 			turn += parseInt(database[i][x].TOV)
 
@@ -283,7 +332,15 @@ function drawTo()
 
 		turn = 0;
 	}
+
+	maxavg = max/maxgp;
+	maxavg = maxavg.toFixed(2);
+	if(to>1978-1950)
+	{
+	$("#factslist").append("<li>Most turnovers in one season: "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" turnovers per game</li>");
+	}
 	highlight('TOB');
+
 	showhide("TO");
 	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Turnovers');
 }
@@ -342,6 +399,8 @@ function drawPf()
 	var max = 0;
 	var maxyear = 0;
 	var maxgp = 0;
+	var maxname = "";
+	var maxavg = 0;
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
@@ -349,8 +408,9 @@ function drawPf()
 			if(max<parseInt(database[i][x].PF))
 			{
 				max = parseInt(database[i][x].PF);
-				maxyear = parseInt(i+1950);
+				maxyear = i+1950;
 				maxgp = database[i][x].G ;
+				maxname = database[i][x].Player;
 			}
 			pf += parseInt(database[i][x].PF)
 
@@ -363,7 +423,14 @@ function drawPf()
 
 		pf = 0;
 	}
+
+	maxavg = max/maxgp;
+	maxavg = maxavg.toFixed(2);
+	$("#factslist").append("<li>Most fouls committed in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" fouls per game</li>");
+	
+
 	highlight('PFB');
+
 	showhide("PF");
 	drawGraph(data, '', 'Year', '', 'auto', 0,[0,10,20,30], 'Fouls');
 }
@@ -415,7 +482,8 @@ function drawSt()
 	var st = 0;
 	var max = 0;
 	var maxyear = 0;
-	var maxgp = 0;
+	var maxname = "";
+	var maxgames = 0;
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
@@ -423,8 +491,9 @@ function drawSt()
 			if(max<parseInt(database[i][x].STL))
 			{
 				max = parseInt(database[i][x].STL);
-				maxyear = parseInt(i+1950);
-				maxgp = database[i][x].G ;
+				maxyear = i+1950;
+				maxname = database[i][x].Player ;
+				maxgames = parseInt(database[i][x].G);
 			}
 			st += parseInt(database[i][x].STL)
 
@@ -437,7 +506,15 @@ function drawSt()
 
 		st = 0;
 	}
+
+	var maxavg = max/maxgames;
+	maxavg = maxavg.toFixed(2);
+	if(to>1974-1950)
+	{
+	$("#factslist").append("<li>Most steals in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" steals per game</li>");
+	}
 	highlight('STB');
+
 	showhide("ST");
 	drawGraph(data, '', 'Year', '', 'auto', 0, '', 'Steals');
 }
@@ -501,6 +578,11 @@ function draw3pp()
 	var PA = 0;
 	var m = '3P';
 	var a = '3PA';
+	var max = 0;
+	var maxatt = 0;
+	var maxavg = 0;
+	var maxyear = 0;
+	var maxname = "";
 	for(var i = from; i<to;i++)
 	{
 		for(var x = 0;x<database[i].length;x++)
@@ -508,6 +590,15 @@ function draw3pp()
 			if(0< parseInt(database[i][x][m]) < 1)
 			{
 				database[i][x][m] = database[i][x][m]*database[i][x][a];
+			}
+			if(max<database[i][x][m])
+			{
+				max = database[i][x][m];
+				max = Math.round(max);
+				maxatt = parseInt(database[i][x][a]);
+				maxyear = i+1950;
+				maxname = database[i][x].Player;
+				maxavg = database[i][x].G;
 			}
 			P += parseInt(database[i][x][m]);
 			PA += parseInt(database[i][x][a]);
@@ -521,7 +612,19 @@ function draw3pp()
 		PA = 0;
 
 	}
+
+	maxavg = max/maxavg;
+	maxavg = maxavg.toFixed(2);
+	var temp = max/maxatt;
+	temp = temp*100;
+	temp = temp.toFixed(2);
+	if(to>1980-1950)
+	{
+		$("#factslist").append("<li>Most three point shots made in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" three point shots made per game, making around "+temp+"% of his three point shoots</li>");
+	}
+
 	highlight('3P%B');
+
 	showhide("3P%");
 	drawGraphPerc(data, '', 'Year', '');
 }
@@ -549,7 +652,32 @@ function drawTeamCount()
 	showhide("Teams");
 	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Teams');
 }
+<<<<<<< HEAD
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
+=======
+function drawChamps()
+{
+	facts();
+	chartType = 13;
+	var tmp = new Array(champs[0].length + 1);
+	tmp[0] = ['Team', 'Wins'];
+	for(var i = 1; i < champs[0].length + 1; i++){
+		tmp[i] = [champs[0][i-1].Franchise, parseInt(champs[0][i-1].Champ)];
+	}
+	var data = new google.visualization.arrayToDataTable(tmp);
+
+	 var options = {
+          title: 'Kökumeistarar'
+        };
+
+    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+
+   	chart.draw(data, options);
+    highlight('ChampsB');
+	showhide("Champs");
+}
+function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
+>>>>>>> origin/master
 {
 	$("#y-axis").empty();
 	$("#y-axis").append(	"<h2>"+ytitle+"</h2>");
