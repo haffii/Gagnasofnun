@@ -549,6 +549,30 @@ function drawTeamCount()
 	showhide("Teams");
 drawGraph(data, '', 'Year', 'Number of teams');
 }
+function drawChamps()
+{
+	facts();
+	chartType = 13;
+	var tmp = new Array(champs[0].length + 1);
+
+	tmp[0] = ['Team', 'Wins'];
+
+	for(var i = 1; i < champs[0].length + 1; i++){
+		tmp[i] = [champs[0][i-1].Franchise, parseInt(champs[0][i-1].Champ)];
+	}
+	var data = new google.visualization.arrayToDataTable(tmp);
+
+	//tmp[1] = [champs[0][1].Franchise, champs[0][2].Champ];
+	//console.log(data);
+
+	 var options = {
+          title: 'Kökumeistarar'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+}
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin)
 {
 	var options = 

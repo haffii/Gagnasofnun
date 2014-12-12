@@ -6,6 +6,7 @@ function start(){
 
 	var breyta;
 	dostuff("seasons");
+	dostuff("champs")
 	for(var i = 1950; i<2015; i++)
 	{
 		dostuff(i);	
@@ -21,6 +22,9 @@ function dostuff(breyta){
 		success: function(data){
 			if(breyta == "seasons"){
 				seasons.push(data);
+			}
+			else if(breyta == "champs"){
+				champs.push(data);
 			}
 			else{
 				var arr=[];
@@ -93,6 +97,9 @@ $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
 	}
 	else if(chartType == 12){
 		drawTeamCount();
+	}
+	else if(chartType == 13){
+		drawChamps();
 	}
 
 }
