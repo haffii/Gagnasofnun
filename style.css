@@ -6,9 +6,13 @@ body
 }
 #body
 {
-	width:1100px ; 
-	margin:auto;
+	/*width:1100px ;*/
 	padding-bottom: 50px;
+   position: relative;
+    min-width: 1366px;
+    max-width: 2048px;
+    margin: 0px auto; 
+    width: 100%;
 } 
 #slider
 {
@@ -90,13 +94,18 @@ button:active {
    width: 400px;
    height: 400px;
    position: absolute;
-   right: 5%;
+   right: 5px;
    top:350px;
    font-family: Helvetica, Arial, Sans-Serif;
+   float: right;
+   top:10%;
+   right: 1%;
+
 }
 #facts h2{
    text-align: center;
    font-size: 30px;
+
 }
 #facts h3
 {
@@ -110,6 +119,7 @@ img
 {
    width: 100%;
    height: auto;
+
 }
 #y-axis
 {
@@ -118,7 +128,7 @@ img
    display: inline-block;
    margin-bottom: 0px;
 margin-top: 0px;
-padding-left: 23%;
+padding-left: 28%;
 margin-bottom: -25px;
 margin-top: 0;
 text-align: center;
