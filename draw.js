@@ -37,6 +37,10 @@ function drawppg() {
 
 
 	}
+	if(maxpointsname.substr(maxpointsname.length -1) == "*")
+	{
+		maxpointsname = maxpointsname.substring(0, maxpointsname.length - 1);
+	}
 	$("#factslist").append("<li>Most points scored in one season : "+maxpoints+" in "+maxpointsyear+" by "+maxpointsname+" averaging "+maxavg+" points per game</li>");
 	highlight('PPGB');
 	showhide("PPG");
@@ -90,11 +94,15 @@ function drawfgp()
 	highlight('FGB');
 
 	showhide("FG");
-maxavg = maxavg*100;
-maxavg = maxavg.toFixed(2);
-$("#factslist").append("<li>Most field goals attempted in one season : "+max+" in "+maxyear+" by "+maxname+" making "+maxavg+"% of them</li>");
+	maxavg = maxavg*100;
+	maxavg = maxavg.toFixed(2);
+	if(maxname.substr(maxname.length -1) == "*")
+		{
+			maxname = maxname.substring(0, maxname.length - 1);
+		}
+	$("#factslist").append("<li>Most field goals attempted in one season : "+max+" in "+maxyear+" by "+maxname+" making "+maxavg+"% of them</li>");
 
-	drawGraphPerc(data, '', 'Year', '');
+		drawGraphPerc(data, '', 'Year', '');
 }
 
 function drawFreeThrow()
@@ -144,13 +152,20 @@ function drawFreeThrow()
 	temp = temp.toFixed(2);
 	maxavg = max/maxgp;
 	maxavg = maxavg.toFixed(2);
+	if(maxname.substr(maxname.length -1) == "*")
+	{
+		maxname = maxname.substring(0, maxname.length - 1);
+	}
 	$("#factslist").append("<li>Most Freethrows made in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" freethrows made per game, making around "+temp+"% of his freethrows</li>");
 	
 
 	highlight('FTB');
 
 	showhide("FT");
-	drawGraphPerc(data, '', 'Year', '');
+	// data, title, xAxis, yAxis, ymax, ymin, ticker
+	// data, title, xAxis, yAxis, ymax, ymin, ticker
+	drawGraphPerc(data, '', 'Year', '','auto', 0, [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]);
+
 }
 
 function drawBlocks()
@@ -194,7 +209,10 @@ function drawBlocks()
 	var avg = max/maxgp;
 	avg = avg.toFixed(2)
 	//console.log(maxname+ " had the most blocked shots in one season : "+max+" it happened in the "+maxyear+" season. He played "+maxgp+" games that season, so he averaged "+max/maxgp+" blocks per game");
-	
+	if(maxname.substr(maxname.length -1) == "*")
+	{
+		maxname = maxname.substring(0, maxname.length - 1);
+	}
 	if(to>1974-1950)
 	{
 		$("#factslist").append("<li>Most Blocks in one season : "+max+" in "+maxyear+" by "+maxname+" with average of "+avg+" blocks per game  </li>");
@@ -285,7 +303,10 @@ function drawAge()
 
 		ag = 0;
 	}
-
+	if(name.substr(name.length -1) == "*")
+	{
+		name = name.substring(0, name.length - 1);
+	}
 	$("#factslist").append("<li>Oldest player in the NBA : "+name+" in "+year+" at the age of "+max+"</li>");
 
 	highlight('AgeB');
@@ -335,6 +356,10 @@ function drawTo()
 
 	maxavg = max/maxgp;
 	maxavg = maxavg.toFixed(2);
+	if(maxname.substr(maxname.length -1) == "*")
+	{
+		maxname = maxname.substring(0, maxname.length - 1);
+	}
 	if(to>1978-1950)
 	{
 	$("#factslist").append("<li>Most turnovers in one season: "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" turnovers per game</li>");
@@ -426,6 +451,10 @@ function drawPf()
 
 	maxavg = max/maxgp;
 	maxavg = maxavg.toFixed(2);
+	if(maxname.substr(maxname.length -1) == "*")
+	{
+		maxname = maxname.substring(0, maxname.length - 1);
+	}
 	$("#factslist").append("<li>Most fouls committed in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" fouls per game</li>");
 	
 
@@ -509,6 +538,10 @@ function drawSt()
 
 	var maxavg = max/maxgames;
 	maxavg = maxavg.toFixed(2);
+	if(maxname.substr(maxname.length -1) == "*")
+	{
+		maxname = maxname.substring(0, maxname.length - 1);
+	}
 	if(to>1974-1950)
 	{
 	$("#factslist").append("<li>Most steals in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" steals per game</li>");
@@ -618,6 +651,10 @@ function draw3pp()
 	var temp = max/maxatt;
 	temp = temp*100;
 	temp = temp.toFixed(2);
+	if(maxname.substr(maxname.length -1) == "*")
+	{
+		maxname = maxname.substring(0, maxname.length - 1);
+	}
 	if(to>1980-1950)
 	{
 		$("#factslist").append("<li>Most three point shots made in one season : "+max+" in "+maxyear+" by "+maxname+" averaging "+maxavg+" three point shots made per game, making around "+temp+"% of his three point shoots</li>");
