@@ -692,23 +692,36 @@ function drawTeamCount()
 function drawChamps()
 {
 	facts();
+	$("#y-axis").empty();
+	$("#y-axis").append(	"<h2>Teams</h2>");
 	chartType = 13;
-	var tmp = new Array(champs[0].length + 1);
+	var tmp = [];
+	var input;
 	tmp[0] = ['Team', 'Wins'];
 	for(var i = 1; i < champs[0].length + 1; i++){
-		tmp[i] = [champs[0][i-1].Franchise, parseInt(champs[0][i-1].Champ)];
+		
+		if(champs[0][i-1].Champ != '0')
+			{
+				input = [champs[0][i-1].Franchise, parseInt(champs[0][i-1].Champ)];
+				tmp.push(input);
+			}
 	}
-	var data = new google.visualization.arrayToDataTable(tmp);
+	var data = google.visualization.arrayToDataTable(tmp);
 
-	 var options = {
-          title: 'Kökumeistarar'
+        var options = {
+        'height':600,
+        'width':850, 
+          titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false},
+          legend:{position:'none'} ,
+          vAxis: {title: '',  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
+          hAxis: {title: 'Wins',  titleTextStyle: {color: 'black', bold: true, fontSize: 20, italic: false}, ticks: [0,2,4,6,8,10,12,14,16,18,20]},
+          'chartArea': {'top': '1%'},
         };
 
-    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-
-   	chart.draw(data, options);
-    highlight('ChampsB');
-	showhide("Champs");
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+		highlight('ChampsB');
+		showhide("Champs");
+        chart.draw(data, options);
 }
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
 
