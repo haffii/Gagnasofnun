@@ -801,7 +801,7 @@ function highlight(id){
              divs[i].style.background = "#374ba6";
 
           }
-          divid.style.background = "red";
+          divid.style.background = "#E50024";
         } 
         return false;
  }
