@@ -715,13 +715,15 @@ function drawChamps()
           legend:{position:'none'} ,
           vAxis: {title: '',  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
           hAxis: {title: 'Wins',  titleTextStyle: {color: 'black', bold: true, fontSize: 20, italic: false}, ticks: [0,2,4,6,8,10,12,14,16,18,20]},
-          'chartArea': {'top': '1%'},
+          'chartArea': {'top': '1%',height: '76%'},
         };
 
         var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
 		highlight('ChampsB');
 		showhide("Champs");
+		showhideSlide("slider-range", "hide");
         chart.draw(data, options);
+
 }
 function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
 
@@ -736,11 +738,13 @@ function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
 	hAxis: {title: xAxis, titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     vAxis: {title: yAxis, viewWindow:{min:ymin, max:ymax},  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }, ticks:ticker},
     series: {0:{color: '374ca6'}},
-    'chartArea': { top: '5%'},
+    'chartArea': { top: '5%',height: '76%'},
+    
     
 };
-var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-chart.draw(data, options);
+	var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+	chart.draw(data, options);
+	showhideSlide("slider-range", "show");
 }
 
 function drawGraphPerc(data, title, xAxis, yAxis, ymax, ymin, ticker)
@@ -755,12 +759,13 @@ function drawGraphPerc(data, title, xAxis, yAxis, ymax, ymin, ticker)
 	hAxis: {title: xAxis,  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
     vAxis: {title: '', viewWindow:{min:ymin, max:ymax}, format:'#,###%', titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }, ticks:ticker},
     series: {0:{color: '374ca6'}},
-    'chartArea': { top: '5%'},
-
+    'chartArea': { top: '5%', height: '76%'},
+    
 };
 
-var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-chart.draw(data, options);
+	var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+	chart.draw(data, options);
+	showhideSlide("slider-range", "show");
 }
 
 function showhide(id){
@@ -771,6 +776,20 @@ function showhide(id){
              divs[i].style.display = "none";
           }
           divid.style.display = "block";
+        } 
+        return false;
+ }
+ function showhideSlide(id, option){
+        if (document.getElementById) {
+          var divid = document.getElementById(id);
+          if(option == "hide")
+          	{
+          		divid.style.display = "none";
+          	}
+          else if(option == "show")
+          {
+          	divid.style.display = "block";
+          }
         } 
         return false;
  }

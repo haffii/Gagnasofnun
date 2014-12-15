@@ -10,7 +10,7 @@ body
 	padding-bottom: 50px;
    position: relative;
     min-width: 1366px;
-    max-width: 2048px;
+    max-width: 1400px;
     margin: 0px auto; 
     width: 100%;
 } 
@@ -123,6 +123,7 @@ img
 }
 #y-axis
 {
+  text-align: center;
    font-size: 11px;
    font-family: Helvetica, Arial, Sans-Serif;
    display: inline-block;
