@@ -31,6 +31,8 @@ function drawGoats()
 	
 	highlight('GoatsB');
 	showhide("Goats");
+	
+	showhideSlide("slider", "hide");
 }
 
 function goatppg(){
@@ -53,7 +55,7 @@ function goatppg(){
 
 	highlight('GoatsB');
 	showhide("Goats");
-	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'PPG');
+	drawGraph(data, '', 'Seasons', '', 'auto', 'auto', '', 'PPG');
 
 }
 function goatfgp(){
@@ -73,7 +75,7 @@ function goatfgp(){
 			[""+i,tmp[0][i],tmp[1][i],tmp[2][i],tmp[3][i]]
 			]);
 	}
-	drawGraphPerc(data, '', 'Year', '', 'auto', 'auto', '', 'FGP');
+	drawGraphPerc(data, '', 'Seasons', '', 'auto', 'auto', '', 'FGP');
 
 }
 function goatast(){
@@ -93,7 +95,7 @@ function goatast(){
 			[""+i,tmp[0][i],tmp[1][i],tmp[2][i],tmp[3][i]]
 			]);
 	}
-	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Assists per game');
+	drawGraph(data, '', 'Seasons', '', 'auto', 'auto', '', 'Assists per game');
 
 }
 
