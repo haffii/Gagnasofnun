@@ -3,7 +3,7 @@ function drawGoats()
 {
 	facts();
 	$("#Goats").empty();
-	$("#Goats").append("Greatest Players")
+	$("#Goats").append("Greatest Players : ")
 	$("#Goats").append("<button id='goatppg' class = 'legends' onclick='goatchart(0)'>PPG</button>")
 	$("#Goats").append("<button id='goatfgp' class = 'legends' onclick='goatchart(1)'>FG%</button>")
 	$("#Goats").append("<button id='goatast' class = 'legends' onclick='goatchart(2)'>Assists</button>")

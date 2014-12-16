@@ -746,6 +746,7 @@ function drawGraph(data, title, xAxis, yAxis, ymax, ymin, ticker, ytitle)
 	var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 	chart.draw(data, options);
 	showhideSlide("slider-range", "show");
+	showhideSlide("slider", "show");
 }
 
 function drawGraphPerc(data, title, xAxis, yAxis, ymax, ymin, ticker)
@@ -767,6 +768,7 @@ function drawGraphPerc(data, title, xAxis, yAxis, ymax, ymin, ticker)
 	var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 	chart.draw(data, options);
 	showhideSlide("slider-range", "show");
+	showhideSlide("slider", "show");
 }
 
 function showhide(id){
