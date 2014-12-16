@@ -689,11 +689,12 @@ function drawTeamCount()
 	showhide("Teams");
 	drawGraph(data, '', 'Year', '', 'auto', 'auto', '', 'Teams');
 }
+
 function drawChamps()
 {
 	facts();
 	$("#y-axis").empty();
-	$("#y-axis").append(	"<h2>Teams</h2>");
+	$("#y-axis").append("<h2>Teams</h2>");
 	chartType = 13;
 	var tmp = [];
 	var input;

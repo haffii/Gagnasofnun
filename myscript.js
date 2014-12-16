@@ -29,6 +29,7 @@ function dostuff(breyta){
 			else{
 				var arr=[];
 				var last;
+				
 				for(var i = 0; i <data.length;i++)
 				{
 
@@ -36,7 +37,27 @@ function dostuff(breyta){
 						if(!(data[i].Player=="Player")){
 							last = data[i].Player;
 							arr.push(data[i]);
+							if(data[i].Player=="Kobe Bryant")
+							{
+								kobe.push(data[i]);
+							}
+							
+							if(data[i].Player == "Wilt Chamberlain*")
+							{
+								wilt.push(data[i])
+							}
+							if(data[i].Player == "LeBron James")
+							{
+								lebron.push(data[i])
+							}
+							if(data[i].Player == "Michael Jordan*")
+							{
+								jordan.push(data[i])
+							}
+							
+							
 						}
+
 					}
 
 				}	
@@ -44,6 +65,10 @@ function dostuff(breyta){
 				database.push(arr);
 				if(breyta==2014)
 				{
+					goats.push(kobe);
+					goats.push(lebron);
+					goats.push(jordan);
+					goats.push(wilt);
 					drawppg();	
 				} 
 			}
@@ -103,6 +128,9 @@ $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
 	}
 	else if(chartType == 13){
 		drawChamps();
+	}
+	else if(chartType == 14){
+		drawGoats();
 	}
 
 }
