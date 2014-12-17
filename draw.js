@@ -715,7 +715,7 @@ function drawChamps()
           titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false},
           legend:{position:'none'} ,
           vAxis: {title: '',  titleTextStyle: {color: 'black' ,bold: true, fontSize: 20, italic: false }},
-          hAxis: {title: 'Wins',  titleTextStyle: {color: 'black', bold: true, fontSize: 20, italic: false}, ticks: [0,2,4,6,8,10,12,14,16,18,20]},
+          hAxis: {title: 'Championships',  titleTextStyle: {color: 'black', bold: true, fontSize: 20, italic: false}, ticks: [0,2,4,6,8,10,12,14,16,18,20]},
           'chartArea': {'top': '1%',height: '76%'},
         };
 

@@ -114,6 +114,7 @@ button:active {
 #facts ul
 {
    list-style-type: none; 
+   text-align: center;
 }
 img
 {
